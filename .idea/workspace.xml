@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="TC01_Login/P02_LandingPage / TC02_LandingPage">
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_05-23-09 PM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_07-55-18 PM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_07_19_55_23_207.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-07-5-23-14PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-07-7-55-23PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P02_LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Listeners/IInvokedMethodListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Listeners/IInvokedMethodListenerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC01_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC01_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2kPidYcUGlnCT5MvHgXPex74IHr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Nezam/Swag_LabsAutomation",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TC01_Login" type="TestNG" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC01_Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC01_Login.validLoginTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC01_Login" />
+      <option name="METHOD_NAME" value="validLoginTC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC02_LandingPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC02_LandingPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC02_LandingPage" />
+        <item itemvalue="TestNG.TC01_Login.validLoginTC" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="" />
+      <created>1723191702159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723191702159</updated>
+    </task>
+    <task id="LOCAL-00001" summary="TC01_Login">
+      <created>1725678217041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725678217041</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TC01_Login/P02_LandingPage / TC02_LandingPage">
+      <created>1725715812872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725715812872</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="TC01_Login" />
+    <MESSAGE value="TC01_Login/P02_LandingPage / TC02_LandingPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="TC01_Login/P02_LandingPage / TC02_LandingPage" />
+  </component>
+</project>
