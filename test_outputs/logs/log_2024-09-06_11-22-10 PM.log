@@ -1,0 +1,6 @@
+[INFO] 06-09-2024 23:22:11 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:32)] - Edge Driver is Opened
+[INFO] 06-09-2024 23:22:12 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:34)] - page is redirected to the URL
+[INFO] 06-09-2024 23:22:13 [main] [Pages.P02_LandingPage.addAllProductsToCard(P02_LandingPage.java:25)] - number of all products : 6
+[INFO] 06-09-2024 23:22:24 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:48)] - Number Of Selected Products : []
+[INFO] 06-09-2024 23:22:24 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCart(P02_LandingPage.java:35)] - number Of Products On Cart Icon  :6
+[INFO] 06-09-2024 23:22:35 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:48)] - Number Of Selected Products : []

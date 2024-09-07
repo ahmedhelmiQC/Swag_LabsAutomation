@@ -1,0 +1,4 @@
+[INFO] 18-08-2024 22:32:17 [main] [Tests.TC01_Login.setup(TC01_Login.java:35)] - EdgeDriver is opend
+[INFO] 18-08-2024 22:32:19 [main] [Tests.TC01_Login.setup(TC01_Login.java:37)] - Page is redirect to the Home Page
+[INFO] 18-08-2024 22:32:20 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCasevalidLoginTCstarted
+[INFO] 18-08-2024 22:32:22 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:19)] - TestCasevalidLoginTCfailed
