@@ -1,12 +1,12 @@
 package Tests;
 
+import Listeners.IInvokedMethodListenerClass;
+import Listeners.ITestResultListenerClass;
 import Pages.P01_LoginPage;
 import Pages.P02_LandingPage;
 import Utilities.Data_Utilis;
 import Utilities.LogsUtilis;
 import org.testng.Assert;
-import Listeners.IInvokedMethodListenerClass;
-import Listeners.ITestResultListenerClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -15,6 +15,9 @@ import org.testng.annotations.Test;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.HashSet;
+import java.util.Random;
+import java.util.Set;
 
 import static DriverFactory.DriverFactory.getDriver;
 import static DriverFactory.DriverFactory.setupDriver;
@@ -40,9 +43,21 @@ public class TC02_LandingPage {
     @Test
     public void checkingNumberOfSelectedProductsWithOnCartTC() {
         new P01_LoginPage(getDriver()).enterUserName(UserName)
-                .enterPassword(Password).clickOnLoginButton().addAllProductsToCard();
-        Assert.assertFalse(new P02_LandingPage(getDriver()).comparingNumberOfSelectedProductsWithOnCart());
+                .enterPassword(Password).clickOnLoginButton().addAllProductsToCart();
+        Assert.assertFalse(new P02_LandingPage(getDriver()).comparingNumberOfSelectedProductsWithCart());
 
+    }
+    public static int generateRandomNumber(int upperBound){  // 0 >> upper-1 > 5
+        return new Random().nextInt(upperBound)+1;
+    }
+    //// Set >> unique 1,2,3,4,5  > condition
+    public static Set<Integer> generateRandomNumber(int numberOfProductNeeded, int totalNumberOfProduct){
+    Set<Integer>generatedNumbers = new HashSet<>();
+        while (generatedNumbers.size()>numberOfProductNeeded){
+            int randomNumber = generateRandomNumber(totalNumberOfProduct);
+            generatedNumbers.add(randomNumber);
+            }
+        return generatedNumbers;
     }
 
     @AfterMethod
