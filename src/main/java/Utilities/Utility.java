@@ -1,5 +1,7 @@
 package Utilities;
 
+import com.assertthat.selenium_shutterbug.core.Capture;
+import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
@@ -8,7 +10,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
-import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.SimpleDateFormat;
@@ -79,6 +80,16 @@ public class Utility {
         }catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    public static void takeFullScreenshot(WebDriver driver, By locator) {
+        try {
+            Shutterbug.shootPage(driver, Capture.FULL_SCROLL)
+                    .highlight(findWebElement(driver, locator))
+                    .save(SCREENSHOT_PATH);
+        } catch (Exception e) {
+            LogsUtilis.error(e.getMessage());
+        }
+
     }
     
 
