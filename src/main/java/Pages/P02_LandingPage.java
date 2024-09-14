@@ -6,9 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.HashSet;
 import java.util.List;
-import java.util.Random;
 import java.util.Set;
 
 public class P02_LandingPage {
@@ -59,9 +57,19 @@ public class P02_LandingPage {
             return "0";
         }
     }
+    public P02_LandingPage addRandomProducts(int numberOfProductsNeeded, int totalNumberOfProducts) {
+        Set<Integer> randomNumbers = Utility.generateRandomNumber(numberOfProductsNeeded, totalNumberOfProducts); //3 > 2,4,1
+        for (int random : randomNumbers) {
+            LogsUtilis.info("randomNumber " + random);
+            By addToCartButtonForAllProducts = By.xpath("(//button[@class])[" + random + "]"); //dynamic Locator
+            Utility.clickingOnElement(driver, addToCartButtonForAllProducts);
+        }
+        return this;
+    }
 
 
-        public boolean comparingNumberOfSelectedProductsWithCart() {
+
+    public boolean comparingNumberOfSelectedProductsWithCart() {
         return getNumberOfProductsOnCartIcon().equals(getNumberOfSelectedProducts());
     }
 

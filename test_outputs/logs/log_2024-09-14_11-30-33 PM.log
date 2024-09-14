@@ -1,0 +1,11 @@
+[INFO] 14-09-2024 23:30:33 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:36)] - EdgeDriver is opened
+[INFO] 14-09-2024 23:30:34 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:38)] - Page is redirect to the Home Page 
+[INFO] 14-09-2024 23:30:35 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCaseaddingRandomProductsToCartTCstarted
+[ERROR] 14-09-2024 23:30:46 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:45)] - Expected condition failed: waiting for visibility of element located by By.className: shopping_cart_badge (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 128.0.2739.79, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61948}, msedge: {msedgedriverVersion: 128.0.2739.79 (9fa544bdb74f..., userDataDir: C:\Users\ahmed\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61948/devtoo..., se:cdpVersion: 128.0.2739.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e740e963671dc023f8e4ba89df21a7c
+[INFO] 14-09-2024 23:30:56 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:53)] - selected products: 0
+[INFO] 14-09-2024 23:30:56 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - TestCaseaddingRandomProductsToCartTCpassed

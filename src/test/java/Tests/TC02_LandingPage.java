@@ -45,6 +45,13 @@ public class TC02_LandingPage {
                     .addAllProductsToCart();
       Assert.assertTrue(new P02_LandingPage(getDriver()).comparingNumberOfSelectedProductsWithCart());
     }
+    @Test
+    public void addingRandomProductsToCartTC(){
+        new P01_LoginPage(getDriver()).enterUserName(UserName)
+                .enterPassword(Password).clickOnLoginButton()
+                .addRandomProducts(3 ,6);
+        Assert.assertTrue(new P02_LandingPage(getDriver()).comparingNumberOfSelectedProductsWithCart());
+    }
 
     @AfterMethod
     public void quite(){
