@@ -5,7 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="last commit">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/New.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/New.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_11-21-38 PM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_05-59-00 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-02-01 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-02-15 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-03-03 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-04-47 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_12-14-18 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_12-47-16 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_12-48-09 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_00_48_13_680.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_05_59_06_953.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_06_02_09_394.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_06_02_21_654.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-07-11-21-43PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-12-48-13AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-5-59-06AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-6-2-08AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-6-2-21AM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P02_LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Listeners/IInvokedMethodListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Listeners/IInvokedMethodListenerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC01_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC01_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Listeners/IInvokedMethodListenerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Listeners/IInvokedMethodListenerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC01_Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC01_Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
