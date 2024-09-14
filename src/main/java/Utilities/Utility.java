@@ -15,6 +15,9 @@ import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Random;
+import java.util.Set;
 
 public class Utility {
     private static final String SCREENSHOT_PATH = "test_outputs/screenshot/";
@@ -81,7 +84,7 @@ public class Utility {
             e.printStackTrace();
         }
     }
-    public static void takeFullScreenshot(WebDriver driver, By locator) {
+    public static void takeFullScreenshot(WebDriver driver , By locator) {
         try {
             Shutterbug.shootPage(driver, Capture.FULL_SCROLL)
                     .highlight(findWebElement(driver, locator))
@@ -90,6 +93,18 @@ public class Utility {
             LogsUtilis.error(e.getMessage());
         }
 
+    }
+    public static int generateRandomNumber(int upperBound){  // 0 >> upper-1 > 5
+        return new Random().nextInt(upperBound)+1;
+    }
+    //// Set >> unique 1,2,3,4,5  > condition
+    public static Set<Integer> generateRandomNumber(int numberOfProductNeeded, int totalNumberOfProduct){
+        Set<Integer>generatedNumbers = new HashSet<>();
+        while (generatedNumbers.size()>numberOfProductNeeded){
+            int randomNumber = generateRandomNumber(totalNumberOfProduct);
+            generatedNumbers.add(randomNumber);
+        }
+        return generatedNumbers;
     }
     
 

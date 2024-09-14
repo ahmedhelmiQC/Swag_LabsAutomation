@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="TC01_Login/P02_LandingPage / TC02_LandingPage">
+    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="Utility / Random Number">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/New.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_05-59-00 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-02-01 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-02-15 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-03-03 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-04-47 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_12-14-18 AM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_05_59_06_953.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_06_02_09_394.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_06_02_21_654.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-5-59-06AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-6-2-08AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-6-2-21AM.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P02_LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Listeners/IInvokedMethodListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Listeners/IInvokedMethodListenerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC01_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC01_Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Listeners/IInvokedMethodListenerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Listeners/IInvokedMethodListenerClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC01_Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC01_Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" afterDir="false" />
@@ -65,7 +77,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TC01_Login">
+  <component name="RunManager">
     <configuration name="TC01_Login" type="TestNG" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
@@ -118,8 +130,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC02_LandingPage" />
+      <option name="METHOD_NAME" value="checkingNumberOfSelectedProductsWithOnCartTC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC" />
         <item itemvalue="TestNG.TC02_LandingPage" />
         <item itemvalue="TestNG.TC01_Login.validLoginTC" />
       </list>
@@ -148,15 +179,63 @@
       <option name="project" value="LOCAL" />
       <updated>1725715812872</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TC01_Login/P02_LandingPage / TC02_LandingPage">
+      <option name="closed" value="true" />
+      <created>1726201731640</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726201731640</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Utility / Random Number">
+      <option name="closed" value="true" />
+      <created>1726201891011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726201891011</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="ahmed" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="ahmed" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -166,6 +245,12 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="TC01_Login" />
     <MESSAGE value="TC01_Login/P02_LandingPage / TC02_LandingPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="TC01_Login/P02_LandingPage / TC02_LandingPage" />
+    <MESSAGE value="Utility / Random Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Utility / Random Number" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Swag_LabsAutomation$TC02_LandingPage_checkingNumberOfSelectedProductsWithOnCartTC.ic" NAME="TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC Coverage Results" MODIFIED="1726263565725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
   </component>
 </project>

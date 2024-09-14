@@ -6,7 +6,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Random;
+import java.util.Set;
 
 public class P02_LandingPage {
     static float totalPrice = 0;
@@ -36,10 +39,10 @@ public class P02_LandingPage {
         return this;
     }
 
-    public By getNumberOfProductsOnCartIcon() {
+    public String getNumberOfProductsOnCartIcon() {
         try {
             LogsUtilis.info("number of products on cart: " + Utility.getText(driver, numberOfProductsOnCartIcon));
-            return Utility.getText(driver, numberOfProductsOnCartIcon); //exc >> no such element
+            return Utility.getText(driver,numberOfProductsOnCartIcon); //exc >> no such element
         } catch (Exception e) {
             LogsUtilis.error(e.getMessage());
             return "0";
@@ -56,6 +59,7 @@ public class P02_LandingPage {
             return "0";
         }
     }
+
 
         public boolean comparingNumberOfSelectedProductsWithCart() {
         return getNumberOfProductsOnCartIcon().equals(getNumberOfSelectedProducts());
