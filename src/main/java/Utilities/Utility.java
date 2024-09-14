@@ -1,5 +1,7 @@
 package Utilities;
 
+import com.assertthat.selenium_shutterbug.core.Capture;
+import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
@@ -8,12 +10,14 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
-import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Random;
+import java.util.Set;
 
 public class Utility {
     private static final String SCREENSHOT_PATH = "test_outputs/screenshot/";
@@ -79,6 +83,28 @@ public class Utility {
         }catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    public static void takeFullScreenshot(WebDriver driver , By locator) {
+        try {
+            Shutterbug.shootPage(driver, Capture.FULL_SCROLL)
+                    .highlight(findWebElement(driver, locator))
+                    .save(SCREENSHOT_PATH);
+        } catch (Exception e) {
+            LogsUtilis.error(e.getMessage());
+        }
+
+    }
+    public static int generateRandomNumber(int upperBound){  // 0 >> upper-1 > 5
+        return new Random().nextInt(upperBound)+1;
+    }
+    //// Set >> unique 1,2,3,4,5  > condition
+    public static Set<Integer> generateRandomNumber(int numberOfProductNeeded, int totalNumberOfProduct){
+        Set<Integer>generatedNumbers = new HashSet<>();
+        while (generatedNumbers.size()>numberOfProductNeeded){
+            int randomNumber = generateRandomNumber(totalNumberOfProduct);
+            generatedNumbers.add(randomNumber);
+        }
+        return generatedNumbers;
     }
     
 

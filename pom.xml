@@ -23,6 +23,10 @@
         <allureversion>2.28.1</allureversion>
         <commons-io>2.16.1</commons-io>
         <aspectj.version>1.9.20.1</aspectj.version>
+<<<<<<< HEAD
+=======
+        <shutterBugVersion>1.6</shutterBugVersion>
+>>>>>>> ahmed
 
     </properties>
 
@@ -114,6 +118,20 @@
             <version>${aspectj.version}</version>
         </dependency>
 
+<<<<<<< HEAD
+=======
+        <dependency>
+            <groupId>com.assertthat</groupId>
+            <artifactId>selenium-shutterbug</artifactId>
+            <version>${shutterBugVersion}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.seleniumhq.selenium</groupId>
+                    <artifactId>selenium-java</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+>>>>>>> ahmed
 
     </dependencies>
 

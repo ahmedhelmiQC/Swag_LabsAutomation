@@ -32,7 +32,7 @@ public class TC01_Login {
     @BeforeMethod
     public void setup() throws IOException {
         setupDriver(getPropertyValue("environment","Browser"));
-        LogsUtilis.info("EdgeDriver is opend");
+        LogsUtilis.info("EdgeDriver is opened");
         getDriver().get(getPropertyValue("environment","BASE_URL"));
         LogsUtilis.info("Page is redirect to the Home Page ");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -42,7 +42,6 @@ public class TC01_Login {
         new P01_LoginPage(getDriver()).enterUserName(UserName)
                 .enterPassword(Password).clickOnLoginButton();
         Assert.assertTrue(new P01_LoginPage(getDriver()).assertLoginTC(getPropertyValue("environment","HOME_URL")));
-
     }
     @AfterMethod
     public void quite() throws IOException {

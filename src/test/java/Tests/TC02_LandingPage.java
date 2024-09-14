@@ -1,12 +1,12 @@
 package Tests;
 
+import Listeners.IInvokedMethodListenerClass;
+import Listeners.ITestResultListenerClass;
 import Pages.P01_LoginPage;
 import Pages.P02_LandingPage;
 import Utilities.Data_Utilis;
 import Utilities.LogsUtilis;
 import org.testng.Assert;
-import Listeners.IInvokedMethodListenerClass;
-import Listeners.ITestResultListenerClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -29,20 +29,21 @@ public class TC02_LandingPage {
     public TC02_LandingPage() throws FileNotFoundException {
     }
 
+
     @BeforeMethod
     public void setup() throws IOException {
         setupDriver(getPropertyValue("environment","Browser"));
-        LogsUtilis.info("Edge Driver is Opened");
+        LogsUtilis.info("EdgeDriver is opened");
         getDriver().get(getPropertyValue("environment","BASE_URL"));
-        LogsUtilis.info("page is redirected to the URL");
+        LogsUtilis.info("Page is redirect to the Home Page ");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
     @Test
     public void checkingNumberOfSelectedProductsWithOnCartTC() {
-        new P01_LoginPage(getDriver()).enterUserName(UserName)
-                .enterPassword(Password).clickOnLoginButton().addAllProductsToCard();
-        Assert.assertFalse(new P02_LandingPage(getDriver()).comparingNumberOfSelectedProductsWithOnCart());
-
+            new P01_LoginPage(getDriver()).enterUserName(UserName)
+                    .enterPassword(Password).clickOnLoginButton()
+                    .addAllProductsToCart();
+      Assert.assertTrue(new P02_LandingPage(getDriver()).comparingNumberOfSelectedProductsWithCart());
     }
 
     @AfterMethod
