@@ -5,9 +5,12 @@ import Utilities.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 import java.util.Set;
+
+import static Utilities.Utility.generalWait;
 
 public class P02_LandingPage {
     static float totalPrice = 0;
@@ -16,6 +19,8 @@ public class P02_LandingPage {
     private final By addToCartButtonForAllProducts = By.xpath("//button[@class]");
     private final By numberOfProductsOnCartIcon = By.className("shopping_cart_badge");
     private final By numberOfSelectedProducts = By.xpath("//button[.='Remove']");
+    private final By cartIcon = By.className("shopping_cart_link");
+    private final By pricesOfSelectedProductLocator = By.xpath("//button[.='Remove']//preceding-sibling::div[@class='inventory_item_price']");
         private final WebDriver driver;
 
     public P02_LandingPage(WebDriver driver) {
@@ -58,6 +63,7 @@ public class P02_LandingPage {
         }
     }
     public P02_LandingPage addRandomProducts(int numberOfProductsNeeded, int totalNumberOfProducts) {
+
         Set<Integer> randomNumbers = Utility.generateRandomNumber(numberOfProductsNeeded, totalNumberOfProducts); //3 > 2,4,1
         for (int random : randomNumbers) {
             LogsUtilis.info("randomNumber " + random);
@@ -67,10 +73,37 @@ public class P02_LandingPage {
         return this;
     }
 
-
-
     public boolean comparingNumberOfSelectedProductsWithCart() {
         return getNumberOfProductsOnCartIcon().equals(getNumberOfSelectedProducts());
+    }
+    public P03_CartPage clickOnCartIcon(){
+        Utility.clickingOnElement(driver,cartIcon);
+        return new P03_CartPage(driver);
+    }
+    public boolean verifyCartPageURL(String expectedURL){
+        try {
+            generalWait(driver).until(ExpectedConditions.urlToBe(expectedURL));
+        }
+        catch (Exception e){
+            return false;
+        }
+        return true;
+    }
+    public String getPricesOfSelectedProducts() {
+        try {
+            List<WebElement> pricesOfSelectedProducts = driver.findElements(pricesOfSelectedProductLocator);
+            for (int i = 0; i >= pricesOfSelectedProducts.size(); i++) {
+                By element = By.xpath("(//button[.='Remove']//preceding-sibling::div[@class='inventory_item_price'])[" + i + "]");
+                String fullText = Utility.getText(driver, element);
+                totalPrice += Float.parseFloat(fullText.replace("$", ""));
+            }
+            LogsUtilis.info("Total Price " + totalPrice);
+            return String.valueOf(totalPrice);
+        }
+        catch (Exception e){
+            LogsUtilis.error(e.getMessage());
+            return "0";
+        }
     }
 
 }

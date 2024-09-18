@@ -1,0 +1,4 @@
+[INFO] 16-09-2024 21:55:28 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:36)] - EdgeDriver is opened
+[INFO] 16-09-2024 21:55:29 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:38)] - Page is redirect to the Home Page 
+[INFO] 16-09-2024 21:55:30 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCaseclickOnCartButtonstarted
+[INFO] 16-09-2024 21:55:36 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - TestCaseclickOnCartButtonfailed
