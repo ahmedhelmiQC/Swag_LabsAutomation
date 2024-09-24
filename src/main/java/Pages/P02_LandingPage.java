@@ -76,6 +76,7 @@ public class P02_LandingPage {
     public boolean comparingNumberOfSelectedProductsWithCart() {
         return getNumberOfProductsOnCartIcon().equals(getNumberOfSelectedProducts());
     }
+
     public P03_CartPage clickOnCartIcon(){
         Utility.clickingOnElement(driver,cartIcon);
         return new P03_CartPage(driver);
@@ -89,7 +90,7 @@ public class P02_LandingPage {
         }
         return true;
     }
-    public String getPricesOfSelectedProducts() {
+    public String getTotalPriceOfSelectedProducts() {
         try {
             List<WebElement> pricesOfSelectedProducts = driver.findElements(pricesOfSelectedProductLocator);
             for (int i = 0; i >= pricesOfSelectedProducts.size(); i++) {

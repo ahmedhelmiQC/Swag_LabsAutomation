@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="last logs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_07-56-06 PM.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_09-50-22 PM.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_09-53-01 PM.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_09-55-28 PM.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/clickOnCartButton-2024-09-16-9-55-36PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-23_11-20-46 PM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-24_11-19-55 PM.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P02_LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Listeners/IInvokedMethodListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Listeners/IInvokedMethodListenerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/environment.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC01_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC01_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Listeners/IInvokedMethodListenerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Listeners/IInvokedMethodListenerClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/TestData/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/TestData/environment.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC01_Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC01_Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,15 +58,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Nezam/Swag_LabsAutomation&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/Nezam/Swag_LabsAutomation",
+    "settings.editor.selected.configurable": "preferences.customizations"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Pages" />
