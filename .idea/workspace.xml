@@ -5,60 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="last logs">
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-08-18_03-40-11 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-08-18_10-15-58 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-08-18_10-32-16 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_10-47-19 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_10-47-21 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_10-53-09 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-03-55 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-10-48 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-15-23 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-19-21 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-22-10 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-28-02 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-36-38 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-05-06 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-08-33 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-09-35 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-11-43 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-13-29 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-15-24 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-17-33 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-23-33 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-27-34 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-38-49 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-42-30 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_04-26-13 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_04-27-30 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_05-12-24 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_05-23-09 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_06-07-57 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_06-09-01 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_06-12-43 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_06-15-36 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_07-55-18 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_11-21-38 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_05-59-00 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-02-01 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-02-15 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-03-03 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-04-47 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-22-22 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-27-18 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-28-53 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-30-33 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-35-03 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-55-02 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_12-14-18 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_12-47-16 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_12-48-09 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-15_12-02-41 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-15_12-12-11 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_07-56-06 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_09-50-22 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_09-53-01 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_09-55-28 PM.log" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-25_01-47-51 PM.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-25_01-49-56 PM.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,19 +30,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2kPidYcUGlnCT5MvHgXPex74IHr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -106,6 +54,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Nezam/Swag_LabsAutomation",
     "settings.editor.selected.configurable": "preferences.customizations"
   }
@@ -224,8 +175,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC02_LandingPage.clickOnCartButton" />
         <item itemvalue="TestNG.TC02_LandingPage.addingRandomProductsToCartTC" />
+        <item itemvalue="TestNG.TC02_LandingPage.clickOnCartButton" />
         <item itemvalue="TestNG.TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC" />
         <item itemvalue="TestNG.TC02_LandingPage" />
         <item itemvalue="TestNG.TC01_Login.validLoginTC" />
