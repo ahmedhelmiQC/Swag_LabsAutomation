@@ -1,7 +1,0 @@
-[INFO] 14-09-2024 06:02:15 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:36)] - EdgeDriver is opened
-[INFO] 14-09-2024 06:02:17 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:38)] - Page is redirect to the Home Page 
-[INFO] 14-09-2024 06:02:18 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCasecheckingNumberOfSelectedProductsWithOnCartTCstarted
-[INFO] 14-09-2024 06:02:19 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:34)] - number of all products: 6
-[INFO] 14-09-2024 06:02:20 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:44)] - number of products on cart: 6
-[INFO] 14-09-2024 06:02:20 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:55)] - selected products: 6
-[INFO] 14-09-2024 06:02:20 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - TestCasecheckingNumberOfSelectedProductsWithOnCartTCfailed
