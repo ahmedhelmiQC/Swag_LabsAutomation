@@ -4,62 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="last logs">
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-08-18_03-40-11 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-08-18_10-15-58 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-08-18_10-32-16 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_10-47-19 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_10-47-21 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_10-53-09 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-03-55 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-10-48 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-15-23 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-19-21 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-22-10 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-28-02 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-06_11-36-38 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-05-06 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-08-33 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-09-35 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-11-43 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-13-29 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-15-24 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-17-33 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-23-33 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-27-34 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-38-49 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_03-42-30 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_04-26-13 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_04-27-30 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_05-12-24 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_05-23-09 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_06-07-57 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_06-09-01 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_06-12-43 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_06-15-36 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_07-55-18 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-07_11-21-38 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_05-59-00 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-02-01 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-02-15 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-03-03 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_06-04-47 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-22-22 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-27-18 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-28-53 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-30-33 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-35-03 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_11-55-02 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_12-14-18 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_12-47-16 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-14_12-48-09 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-15_12-02-41 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-15_12-12-11 AM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_07-56-06 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_09-50-22 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_09-53-01 PM.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-16_09-55-28 PM.log" beforeDir="false" />
-    </list>
+    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="workspace" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -303,7 +248,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727210328699</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="last logs">
+      <option name="closed" value="true" />
+      <created>1727382357069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727382357069</updated>
+    </task>
+    <task id="LOCAL-00010" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1727382405488</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727382405488</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +317,8 @@
     <MESSAGE value="Utility / Random Number" />
     <MESSAGE value="last commit" />
     <MESSAGE value="last logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="last logs" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Swag_LabsAutomation$TC02_LandingPage_checkingNumberOfSelectedProductsWithOnCartTC.ic" NAME="TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC Coverage Results" MODIFIED="1726263565725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
