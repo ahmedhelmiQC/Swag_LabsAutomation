@@ -97,10 +97,12 @@ public class Utility {
     public static int generateRandomNumber(int upperBound){  // 0 >> upper-1 > 5
         return new Random().nextInt(upperBound)+1;
     }
+
+                            ////// generateRandomNumber ////
                         //// Set >> unique 1,2,3,4,5  > condition
     public static Set<Integer> generateRandomNumber(int numberOfProductNeeded, int totalNumberOfProduct){
         Set<Integer>generatedNumbers = new HashSet<>();
-        while (generatedNumbers.size()<numberOfProductNeeded){
+        while (generatedNumbers.size() < numberOfProductNeeded){
             int randomNumber = generateRandomNumber(totalNumberOfProduct);
             generatedNumbers.add(randomNumber);
         }
