@@ -100,7 +100,7 @@ public class Utility {
     //// Set >> unique 1,2,3,4,5  > condition
     public static Set<Integer> generateRandomNumber(int numberOfProductNeeded, int totalNumberOfProduct){
         Set<Integer>generatedNumbers = new HashSet<>();
-        while (generatedNumbers.size()>numberOfProductNeeded){
+        while (generatedNumbers.size()<numberOfProductNeeded){
             int randomNumber = generateRandomNumber(totalNumberOfProduct);
             generatedNumbers.add(randomNumber);
         }

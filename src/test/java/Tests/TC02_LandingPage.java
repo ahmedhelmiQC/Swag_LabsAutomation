@@ -47,11 +47,14 @@ public class TC02_LandingPage {
     }
     @Test
     public void addingRandomProductsToCartTC(){
-        new P01_LoginPage(getDriver()).enterUserName(UserName)
-                .enterPassword(Password).clickOnLoginButton()
-                .addRandomProducts(3,6);
+        new P01_LoginPage(getDriver()).
+                enterUserName(UserName)
+                .enterPassword(Password)
+                .clickOnLoginButton()
+                .addRandomProducts(5,6);
         Assert.assertTrue(new P02_LandingPage(getDriver()).comparingNumberOfSelectedProductsWithCart());
     }
+
     @Test
     public void clickOnCartButtonTC () throws IOException {
         new P01_LoginPage(getDriver()).enterUserName(UserName)
@@ -59,6 +62,12 @@ public class TC02_LandingPage {
                 .clickOnCartIcon();
         Assert.assertTrue(new P02_LandingPage(getDriver()).
                 verifyCartPageURL(getPropertyValue("environment","CartPage_URL")));
+    }
+    @Test
+    public void getprice1(){
+        new P01_LoginPage(getDriver()).enterUserName(UserName)
+                .enterPassword(Password).clickOnLoginButton()
+                ;
     }
 
     @AfterMethod
