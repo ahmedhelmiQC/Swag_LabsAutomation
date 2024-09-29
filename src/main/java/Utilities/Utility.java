@@ -100,11 +100,28 @@ public class Utility {
     //// Set >> unique 1,2,3,4,5  > condition
     public static Set<Integer> generateRandomNumber(int numberOfProductNeeded, int totalNumberOfProduct){
         Set<Integer>generatedNumbers = new HashSet<>();
-        while (generatedNumbers.size()>numberOfProductNeeded){
+        while (generatedNumbers.size()<numberOfProductNeeded){
             int randomNumber = generateRandomNumber(totalNumberOfProduct);
             generatedNumbers.add(randomNumber);
         }
         return generatedNumbers;
+    }
+    public static Set<Cookie> getAllCookies(WebDriver driver) {
+        return driver.manage().getCookies();
+    }
+
+    public static void restoreSession(WebDriver driver, Set<Cookie> cookies) {
+        for (Cookie cookie : cookies)
+            driver.manage().addCookie(cookie);
+    }
+
+    public static boolean VerifyURL(WebDriver driver, String expectedURL) {
+        try {
+            generalWait(driver).until(ExpectedConditions.urlToBe(expectedURL));
+        } catch (Exception e) {
+            return false;
+        }
+        return true;
     }
     
 
