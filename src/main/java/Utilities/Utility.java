@@ -106,14 +106,6 @@ public class Utility {
         }
         return generatedNumbers;
     }
-    public static Set<Cookie> getAllCookies(WebDriver driver) {
-        return driver.manage().getCookies();
-    }
-
-    public static void restoreSession(WebDriver driver, Set<Cookie> cookies) {
-        for (Cookie cookie : cookies)
-            driver.manage().addCookie(cookie);
-    }
 
     public static boolean VerifyURL(WebDriver driver, String expectedURL) {
         try {
