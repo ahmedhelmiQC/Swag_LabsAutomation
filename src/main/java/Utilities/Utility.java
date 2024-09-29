@@ -92,12 +92,12 @@ public class Utility {
         } catch (Exception e) {
             LogsUtilis.error(e.getMessage());
         }
-
     }
+                //// RandomNumber //////
     public static int generateRandomNumber(int upperBound){  // 0 >> upper-1 > 5
         return new Random().nextInt(upperBound)+1;
     }
-    //// Set >> unique 1,2,3,4,5  > condition
+                        //// Set >> unique 1,2,3,4,5  > condition
     public static Set<Integer> generateRandomNumber(int numberOfProductNeeded, int totalNumberOfProduct){
         Set<Integer>generatedNumbers = new HashSet<>();
         while (generatedNumbers.size()<numberOfProductNeeded){

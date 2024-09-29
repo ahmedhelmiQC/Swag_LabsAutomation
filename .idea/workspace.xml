@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="last logs">
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/comparingPriceTC-2024-09-29-10-26-05AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/comparingPriceTC2-2024-09-26-11-17-07AM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/getprice1-2024-09-26-2-20-31PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P02_LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" afterDir="false" />
+=======
     <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="workspace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 34a65ae201d5d7f67b18e7038d1e0df143e8828c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +42,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="TC02_LandingPage.addingRandomProductsToCartTC" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -44,6 +65,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor": "Run",
+    "TestNG.TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC.executor": "Run",
+    "TestNG.TC02_LandingPage.executor": "Run",
+    "TestNG.TC02_LandingPage.getprice1.executor": "Run",
+    "TestNG.TC03_CartTest.comparingPriceTC.executor": "Run",
+    "TestNG.TC03_CartTest.comparingPriceTC2.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Nezam/Swag_LabsAutomation",
+    "settings.editor.selected.configurable": "preferences.customizations"
+=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
@@ -55,6 +94,7 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/Nezam/Swag_LabsAutomation&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+>>>>>>> 34a65ae201d5d7f67b18e7038d1e0df143e8828c
   }
 }</component>
   <component name="RecentsManager">
@@ -62,7 +102,11 @@
       <recent name="Pages" />
     </key>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="TestNG.TC03_CartTest.comparingPriceTC">
+=======
   <component name="RunManager" selected="TestNG.TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC">
+>>>>>>> 34a65ae201d5d7f67b18e7038d1e0df143e8828c
     <configuration name="TC01_Login" type="TestNG" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
@@ -80,6 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
     <configuration name="TC02_LandingPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
@@ -97,6 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+>>>>>>> 34a65ae201d5d7f67b18e7038d1e0df143e8828c
     <configuration name="TC02_LandingPage.addingRandomProductsToCartTC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
@@ -133,7 +180,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC02_LandingPage.clickOnCartButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC02_LandingPage.getprice1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
         <pattern>
@@ -143,7 +190,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.TC02_LandingPage" />
-      <option name="METHOD_NAME" value="clickOnCartButton" />
+      <option name="METHOD_NAME" value="getprice1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC03_CartTest.comparingPriceTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC03_CartTest" />
+      <option name="METHOD_NAME" value="comparingPriceTC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC03_CartTest.comparingPriceTC2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC03_CartTest" />
+      <option name="METHOD_NAME" value="comparingPriceTC2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,11 +254,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
+        <item itemvalue="TestNG.TC03_CartTest.comparingPriceTC" />
+        <item itemvalue="TestNG.TC02_LandingPage.addingRandomProductsToCartTC" />
+        <item itemvalue="TestNG.TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC" />
+        <item itemvalue="TestNG.TC02_LandingPage.getprice1" />
+        <item itemvalue="TestNG.TC03_CartTest.comparingPriceTC2" />
+=======
         <item itemvalue="TestNG.TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC" />
         <item itemvalue="TestNG.TC02_LandingPage.clickOnCartButtonTC" />
         <item itemvalue="TestNG.TC02_LandingPage.addingRandomProductsToCartTC" />
         <item itemvalue="TestNG.TC02_LandingPage.clickOnCartButton" />
         <item itemvalue="TestNG.TC02_LandingPage" />
+>>>>>>> 34a65ae201d5d7f67b18e7038d1e0df143e8828c
       </list>
     </recent_temporary>
   </component>
@@ -315,6 +406,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Swag_LabsAutomation$TC02_LandingPage_addingRandomProductsToCartTC.ic" NAME="TC02_LandingPage.addingRandomProductsToCartTC Coverage Results" MODIFIED="1727358336845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Swag_LabsAutomation$TC02_LandingPage_checkingNumberOfSelectedProductsWithOnCartTC.ic" NAME="TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC Coverage Results" MODIFIED="1726263565725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Tests.*</FILTER>
     </SUITE>

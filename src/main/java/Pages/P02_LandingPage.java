@@ -20,8 +20,8 @@ public class P02_LandingPage {
     private final By numberOfProductsOnCartIcon = By.className("shopping_cart_badge");
     private final By numberOfSelectedProducts = By.xpath("//button[.='Remove']");
     private final By cartIcon = By.className("shopping_cart_link");
-    private final By pricesOfSelectedProductLocator = By.xpath("//button[.='Remove']//preceding-sibling::div[@class='inventory_item_price']");
-        private final WebDriver driver;
+    private final By pricesOfSelectedProductLocator = By.xpath("//button[.=\"Remove\"] //preceding-sibling::div[@class='inventory_item_price']");
+    private final WebDriver driver;
 
     public P02_LandingPage(WebDriver driver) {
         this.driver = driver;
@@ -45,7 +45,7 @@ public class P02_LandingPage {
     public String getNumberOfProductsOnCartIcon() {
         try {
             LogsUtilis.info("number of products on cart: " + Utility.getText(driver, numberOfProductsOnCartIcon));
-            return Utility.getText(driver,numberOfProductsOnCartIcon); //exc >> no such element
+            return Utility.getText(driver, numberOfProductsOnCartIcon); //exc >> no such element
         } catch (Exception e) {
             LogsUtilis.error(e.getMessage());
             return "0";
@@ -75,31 +75,31 @@ public class P02_LandingPage {
         return getNumberOfProductsOnCartIcon().equals(getNumberOfSelectedProducts());
     }
 
-    public P03_CartPage clickOnCartIcon(){
-        Utility.clickingOnElement(driver,cartIcon);
+    public P03_CartPage clickOnCartIcon() {
+        Utility.clickingOnElement(driver, cartIcon);
         return new P03_CartPage(driver);
     }
-    public boolean verifyCartPageURL(String expectedURL){
+
+    public boolean verifyCartPageURL(String expectedURL) {
         try {
             generalWait(driver).until(ExpectedConditions.urlToBe(expectedURL));
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             return false;
         }
         return true;
     }
+
     public String getTotalPriceOfSelectedProducts() {
         try {
             List<WebElement> pricesOfSelectedProducts = driver.findElements(pricesOfSelectedProductLocator);
-            for (int i = 0; i >= pricesOfSelectedProducts.size(); i++) {
-                By element = By.xpath("(//button[.='Remove']//preceding-sibling::div[@class='inventory_item_price'])[" + i + "]");
-                String fullText = Utility.getText(driver, element);
+            for (int i = 1; i <= pricesOfSelectedProducts.size(); i++) {
+                By elements = By.xpath("(//button[.='Remove']//preceding-sibling::div[@class='inventory_item_price'])[" + i + "]");
+                String fullText = Utility.getText(driver, elements);
                 totalPrice += Float.parseFloat(fullText.replace("$", ""));
             }
             LogsUtilis.info("Total Price " + totalPrice);
             return String.valueOf(totalPrice);
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             LogsUtilis.error(e.getMessage());
             return "0";
         }
