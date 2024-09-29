@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="last logs">
       <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/comparingPriceTC-2024-09-29-10-26-05AM.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test_outputs/screenshot/comparingPriceTC2-2024-09-26-11-17-07AM.png" afterDir="false" />
@@ -17,6 +18,10 @@
       <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" afterDir="false" />
+=======
+    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="workspace">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 34a65ae201d5d7f67b18e7038d1e0df143e8828c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +65,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
@@ -76,14 +82,31 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Nezam/Swag_LabsAutomation",
     "settings.editor.selected.configurable": "preferences.customizations"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor&quot;: &quot;Run&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Nezam/Swag_LabsAutomation&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+>>>>>>> 34a65ae201d5d7f67b18e7038d1e0df143e8828c
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Pages" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.TC03_CartTest.comparingPriceTC">
+=======
+  <component name="RunManager" selected="TestNG.TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC">
+>>>>>>> 34a65ae201d5d7f67b18e7038d1e0df143e8828c
     <configuration name="TC01_Login" type="TestNG" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
@@ -101,6 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration name="TC02_LandingPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC02_LandingPage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> 34a65ae201d5d7f67b18e7038d1e0df143e8828c
     <configuration name="TC02_LandingPage.addingRandomProductsToCartTC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
@@ -191,13 +234,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC02_LandingPage.clickOnCartButtonTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC02_LandingPage" />
+      <option name="METHOD_NAME" value="clickOnCartButtonTC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="TestNG.TC03_CartTest.comparingPriceTC" />
         <item itemvalue="TestNG.TC02_LandingPage.addingRandomProductsToCartTC" />
         <item itemvalue="TestNG.TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC" />
         <item itemvalue="TestNG.TC02_LandingPage.getprice1" />
         <item itemvalue="TestNG.TC03_CartTest.comparingPriceTC2" />
+=======
+        <item itemvalue="TestNG.TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC" />
+        <item itemvalue="TestNG.TC02_LandingPage.clickOnCartButtonTC" />
+        <item itemvalue="TestNG.TC02_LandingPage.addingRandomProductsToCartTC" />
+        <item itemvalue="TestNG.TC02_LandingPage.clickOnCartButton" />
+        <item itemvalue="TestNG.TC02_LandingPage" />
+>>>>>>> 34a65ae201d5d7f67b18e7038d1e0df143e8828c
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727210328699</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1727384931299</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727384931299</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +402,8 @@
     <MESSAGE value="Utility / Random Number" />
     <MESSAGE value="last commit" />
     <MESSAGE value="last logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="last logs" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Swag_LabsAutomation$TC02_LandingPage_addingRandomProductsToCartTC.ic" NAME="TC02_LandingPage.addingRandomProductsToCartTC Coverage Results" MODIFIED="1727358336845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
