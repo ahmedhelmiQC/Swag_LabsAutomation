@@ -1,0 +1,10 @@
+[INFO] 28-09-2024 07:21:26 [main] [Tests.TC02_Landing.login(TC02_Landing.java:35)] - null
+[INFO] 28-09-2024 07:21:31 [main] [Tests.TC02_Landing.login(TC02_Landing.java:37)] - Edge driver is opened
+[INFO] 28-09-2024 07:21:32 [main] [Tests.TC02_Landing.login(TC02_Landing.java:39)] - Page is redirected to the URL
+[INFO] 28-09-2024 07:21:33 [main] [Tests.TC02_Landing.setup(TC02_Landing.java:53)] - null
+[INFO] 28-09-2024 07:21:38 [main] [Tests.TC02_Landing.setup(TC02_Landing.java:55)] - Edge driver is opened
+[INFO] 28-09-2024 07:21:39 [main] [Tests.TC02_Landing.setup(TC02_Landing.java:57)] - Page is redirected to the URL
+[INFO] 28-09-2024 07:21:39 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - TestCasesetupfailed
+[INFO] 28-09-2024 07:21:40 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCaseaddingRandomProductsToCartTCstarted
+[INFO] 28-09-2024 07:21:40 [main] [Listeners.ITestResultListenerClass.onTestSkipped(ITestResultListenerClass.java:19)] - TestCaseaddingRandomProductsToCartTCSkipped
+[INFO] 28-09-2024 07:21:42 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - TestCasedeleteSessionfailed

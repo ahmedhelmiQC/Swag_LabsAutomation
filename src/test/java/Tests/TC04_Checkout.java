@@ -3,10 +3,10 @@ package Tests;
 import Listeners.IInvokedMethodListenerClass;
 import Listeners.ITestResultListenerClass;
 import Pages.P01_LoginPage;
-import Pages.P02_LandingPage;
-import Pages.P03_CartPage;
 import Utilities.Data_Utilis;
 import Utilities.LogsUtilis;
+import Utilities.Utility;
+import com.github.javafaker.Faker;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -19,12 +19,15 @@ import java.time.Duration;
 
 import static DriverFactory.DriverFactory.*;
 import static Utilities.Data_Utilis.getPropertyValue;
-@Listeners ({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
-public class TC03_CartTest {
+
+@Listeners({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
+public class TC04_Checkout {
     private final String UserName= Data_Utilis.getJsonData("validLogin","username");
     private final String Password= Data_Utilis.getJsonData("validLogin","password");
-
-    public TC03_CartTest() throws FileNotFoundException {
+    private final String FirstName = Data_Utilis.getJsonData("information","fName")+"-"+ Utility.getTimestamp();
+    private final String LastName = Data_Utilis.getJsonData("information","lName")+"-"+Utility.getTimestamp();
+    private final String ZipCode = new Faker().number().digits(5);
+    public TC04_Checkout() throws FileNotFoundException {
     }
 
     @BeforeMethod
@@ -36,20 +39,16 @@ public class TC03_CartTest {
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
     @Test
-    public void comparingPriceTC() throws IOException{
-       String totalPrice = new P01_LoginPage(getDriver()).enterUserName(UserName)
-                .enterPassword(Password).clickOnLoginButton().
-<<<<<<< HEAD
-                addRandomProducts(5,6)
-=======
-                addRandomProducts(4,6)
->>>>>>> f5286375a4c41bf887ded2ada6c9f0a6d2b23902
-                .getTotalPriceOfSelectedProducts();
-        new P02_LandingPage(getDriver()).clickOnCartIcon();
-        Assert.assertTrue(new P03_CartPage(getDriver()).comparingPrice(totalPrice));
-        }
-
-        @AfterMethod
+    public void checkoutStepOneTC () throws IOException {
+        new P01_LoginPage(getDriver()).enterUserName(UserName)
+                .enterPassword(Password).clickOnLoginButton()
+                .addRandomProducts(3,6)
+                .clickOnCartIcon().clickOnCheckOnButton()
+                .fillingInformationForm(FirstName,LastName,ZipCode).clickOnContinueButton();
+        LogsUtilis.info(FirstName + " "+ LastName + " " + ZipCode);
+        Assert.assertTrue(Utility.VerifyURL(getDriver(),getPropertyValue("environment","Checkout_URL")));
+    }
+    @AfterMethod
     public void quite() throws IOException {
         quiteDriver();
     }
