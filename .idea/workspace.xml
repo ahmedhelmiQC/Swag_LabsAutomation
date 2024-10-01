@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/P04_CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/P05_OverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/TC04_Checkout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/TC05_Overview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/information.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="TC04_Checkout &amp; TC04_CheckoutPge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-35-49 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-35-49 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-45-24 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-45-24 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-56-46 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-56-46 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-58-56 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-58-56 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_08-04-43 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_08-04-43 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/TestData/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/TestData/environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +153,15 @@
       <option name="presentableId" value="Default" />
       <updated>1723191702159</updated>
     </task>
+    <task id="LOCAL-00001" summary="TC04_Checkout &amp; TC04_CheckoutPge">
+      <option name="closed" value="true" />
+      <created>1727647175013</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727647175013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +189,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TC04_Checkout &amp; TC04_CheckoutPge" />
+    <option name="LAST_COMMIT_MESSAGE" value="TC04_Checkout &amp; TC04_CheckoutPge" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Swag_LabsAutomation$TC02_LandingPage_checkingNumberOfSelectedProductsWithOnCartTC.ic" NAME="TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC Coverage Results" MODIFIED="1726263565725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
