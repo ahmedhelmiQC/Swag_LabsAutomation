@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="workspace + CartTest case">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/P04_CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/P05_OverviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/TC04_Checkout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/TC05_Overview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/information.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-35-49 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-35-49 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-45-24 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-45-24 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-56-46 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-56-46 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-58-56 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-58-56 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_08-04-43 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_08-04-43 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/TestData/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/TestData/environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,41 +65,13 @@
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC04_Checkout.checkoutStepOneTC">
+  <component name="RunManager">
     <configuration name="TC01_Login" type="TestNGConfigurationType" factoryName="TestNG">
       <extension name="coverage" enabled="false" />
       <module name="Swag_LabsAutomation" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests.TC01_Login" />
       <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="SUITE_NAME" value="" />
-      <option name="TEST_NAME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <envs />
-      <patterns />
-      <method v="2" />
-    </configuration>
-    <configuration name="TC04_Checkout" type="TestNGConfigurationType" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" />
-      <module name="Swag_LabsAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TC04_Checkout" />
-      <option name="METHOD_NAME" value="checkoutStepOneTC" />
-      <option name="GROUP_NAME" value="" />
-      <option name="SUITE_NAME" value="" />
-      <option name="TEST_NAME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <envs />
-      <patterns />
-      <method v="2" />
-    </configuration>
-    <configuration name="TC03_CartTest" type="TestNGConfigurationType" factoryName="TestNG">
-      <extension name="coverage" enabled="false" />
-      <module name="Swag_LabsAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TC03_CartTest" />
-      <option name="METHOD_NAME" value="comparingPriceTC" />
       <option name="GROUP_NAME" value="" />
       <option name="SUITE_NAME" value="" />
       <option name="TEST_NAME" value="" />
@@ -143,5 +94,41 @@
       <patterns />
       <method v="2" />
     </configuration>
+    <configuration name="TC03_CartTest" type="TestNGConfigurationType" factoryName="TestNG">
+      <extension name="coverage" enabled="false" />
+      <module name="Swag_LabsAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC03_CartTest" />
+      <option name="METHOD_NAME" value="comparingPriceTC" />
+      <option name="GROUP_NAME" value="" />
+      <option name="SUITE_NAME" value="" />
+      <option name="TEST_NAME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <envs />
+      <patterns />
+      <method v="2" />
+    </configuration>
+    <configuration name="TC04_Checkout" type="TestNGConfigurationType" factoryName="TestNG" temporary="true">
+      <extension name="coverage" enabled="false" />
+      <module name="Swag_LabsAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC04_Checkout" />
+      <option name="METHOD_NAME" value="checkoutStepOneTC" />
+      <option name="GROUP_NAME" value="" />
+      <option name="SUITE_NAME" value="" />
+      <option name="TEST_NAME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <envs />
+      <patterns />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Swag_LabsAutomation$TC02_LandingPage_checkingNumberOfSelectedProductsWithOnCartTC.ic" NAME="TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC Coverage Results" MODIFIED="1726263565725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
   </component>
 </project>
