@@ -40,7 +40,7 @@ public class TC03_CartTest {
        String totalPrice = new P01_LoginPage(getDriver()).enterUserName(UserName)
                 .enterPassword(Password).clickOnLoginButton().
                 addRandomProducts(5,6)
-               .addRandomProducts(4,6)
+               .addRandomProducts(2,6)
                 .getTotalPriceOfSelectedProducts();
         new P02_LandingPage(getDriver()).clickOnCartIcon();
         Assert.assertTrue(new P03_CartPage(getDriver()).comparingPrice(totalPrice));
