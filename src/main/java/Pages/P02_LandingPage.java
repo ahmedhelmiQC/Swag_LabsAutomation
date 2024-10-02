@@ -63,7 +63,6 @@ public class P02_LandingPage {
         }
     }
     public P02_LandingPage addRandomProducts(int numberOfProductsNeeded, int totalNumberOfProducts) {
-
         Set<Integer> randomNumbers = Utility.generateRandomNumber(numberOfProductsNeeded, totalNumberOfProducts); //3 > 2,4,1
         for (int random : randomNumbers) {
             LogsUtilis.info("randomNumber " + random);
@@ -72,7 +71,6 @@ public class P02_LandingPage {
         }
         return this;
     }
-
     public boolean comparingNumberOfSelectedProductsWithCart() {
         return getNumberOfProductsOnCartIcon().equals(getNumberOfSelectedProducts());
     }

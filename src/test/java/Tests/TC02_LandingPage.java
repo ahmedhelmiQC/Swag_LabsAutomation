@@ -19,9 +19,10 @@ import java.time.Duration;
 import static DriverFactory.DriverFactory.getDriver;
 import static DriverFactory.DriverFactory.setupDriver;
 import static Utilities.Data_Utilis.getPropertyValue;
+import static Utilities.Utility.VerifyURL;
 
 
-    @Listeners ({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
+@Listeners ({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
 public class TC02_LandingPage {
     private final String UserName= Data_Utilis.getJsonData("validLogin","username");
     private final String Password= Data_Utilis.getJsonData("validLogin","password");
@@ -66,9 +67,16 @@ public class TC02_LandingPage {
     @Test
     public void getprice1(){
         new P01_LoginPage(getDriver()).enterUserName(UserName)
-                .enterPassword(Password).clickOnLoginButton()
-                ;
+                .enterPassword(Password).clickOnLoginButton();
     }
+        @Test
+        public void clickOnContuneButtonTC () throws IOException {
+            new P01_LoginPage(getDriver()).enterUserName(UserName)
+                    .enterPassword(Password).clickOnLoginButton()
+                    .addRandomProducts(5,6)
+                    .clickOnCartIcon().clickOnCheckOnButton();
+            Assert.assertTrue(VerifyURL(getDriver(),getPropertyValue("environment","Checkout_URL")));
+        }
 
     @AfterMethod
     public void quite(){
