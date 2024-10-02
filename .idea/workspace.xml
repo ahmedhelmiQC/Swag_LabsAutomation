@@ -4,34 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="workspace + CartTest case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
-
-    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" />
+    </list>
+    <list default="false" id="new-id-1234" name="New Changes">
       <change afterPath="$PROJECT_DIR$/src/main/java/Pages/P04_CheckoutPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Pages/P05_OverviewPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/Tests/TC04_Checkout.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/Tests/TC05_Overview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/information.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P03_CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-35-49 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-35-49 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-45-24 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-45-24 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-56-46 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-56-46 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-58-56 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_07-58-56 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_08-04-43 AM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-09-28_08-04-43 AM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Pages/P02_LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/TestData/environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/TestData/environment.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" afterDir="false" />
-
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +39,10 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo">{
-
-        &quot;customColor&quot;: &quot;&quot;,
-        &quot;associatedIndex&quot;: 8
-        }</component>
-
-    &quot;customColor&quot;: &quot;&quot;,
-    &quot;associatedIndex&quot;: 8
-    }</component>
-
+  <component name="ProjectColorInfo">
+    <option name="customColor" value="" />
+    <option name="associatedIndex" value="8" />
+  </component>
   <component name="ProjectId" id="2kPidYcUGlnCT5MvHgXPex74IHr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -76,47 +51,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor": "Run",
-    "TestNG.TC02_LandingPage.getprice1.executor": "Run",
-    "TestNG.TC03_CartTest.comparingPriceTC.executor": "Run",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Nezam/Swag_LabsAutomation",
-    "settings.editor.selected.configurable": "preferences.customizations"
-=======
   <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC02_LandingPage.getprice1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC03_CartTest.comparingPriceTC.executor&quot;: &quot;Run&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Nezam/Swag_LabsAutomation&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
->>>>>>> f5286375a4c41bf887ded2ada6c9f0a6d2b23902
-  }
-}]]></component>
+      &quot;keyToString&quot;: {
+        &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+        &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+        &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+        &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+        &quot;TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor&quot;: &quot;Run&quot;,
+        &quot;TestNG.TC02_LandingPage.getprice1.executor&quot;: &quot;Run&quot;,
+        &quot;TestNG.TC03_CartTest.comparingPriceTC.executor&quot;: &quot;Run&quot;,
+        &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+        &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+        &quot;last_opened_file_path&quot;: &quot;E:/Nezam/Swag_LabsAutomation&quot;,
+        &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+      }
+    }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Pages" />
     </key>
   </component>
-
-  <component name="RunManager" selected="TestNG.TC03_CartTest.comparingPriceTC">
-
-  <component name="RunManager" selected="TestNG.TC04_Checkout.checkoutStepOneTC">
->>>>>>> f5286375a4c41bf887ded2ada6c9f0a6d2b23902
+  <component name="RunManager">
     <configuration name="TC01_Login" type="TestNG" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
@@ -134,76 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-
-
-    <configuration name="TC02_LandingPage.clickOnContuneButtonTC" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swag_LabsAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TC02_LandingPage" />
-      <option name="METHOD_NAME" value="clickOnContuneButtonTC" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
->>>>>>> f5286375a4c41bf887ded2ada6c9f0a6d2b23902
-    <configuration name="TC03_CartTest.comparingPriceTC" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swag_LabsAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TC03_CartTest" />
-      <option name="METHOD_NAME" value="comparingPriceTC" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-
-    <configuration name="TC04_Checkout.checkoutStepOneTC" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swag_LabsAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TC04_Checkout" />
-      <option name="METHOD_NAME" value="checkoutStepOneTC" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.TC04_Checkout.checkoutStepOneTC" />
-        <item itemvalue="TestNG.TC02_LandingPage.clickOnContuneButtonTC" />
-
-        <item itemvalue="TestNG.TC03_CartTest.comparingPriceTC" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="" />
@@ -212,7 +98,6 @@
       <option name="presentableId" value="Default" />
       <updated>1723191702159</updated>
     </task>
-
     <task id="LOCAL-00001" summary="workspace + CartTest case">
       <option name="closed" value="true" />
       <created>1727615455296</created>
@@ -222,45 +107,9 @@
       <updated>1727615455296</updated>
     </task>
     <option name="localTasksCounter" value="2" />
-=======
->>>>>>> f5286375a4c41bf887ded2ada6c9f0a6d2b23902
-    <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/master" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="workspace + CartTest case" />
     <option name="LAST_COMMIT_MESSAGE" value="workspace + CartTest case" />
-=======
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Swag_LabsAutomation$TC02_LandingPage_checkingNumberOfSelectedProductsWithOnCartTC.ic" NAME="TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC Coverage Results" MODIFIED="1726263565725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Tests.*</FILTER>
-    </SUITE>
->>>>>>> f5286375a4c41bf887ded2ada6c9f0a6d2b23902
   </component>
 </project>
