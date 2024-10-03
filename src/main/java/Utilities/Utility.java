@@ -109,6 +109,7 @@ public class Utility {
         return generatedNumbers;
     }
 
+            /////////  VerifyURL ///
     public static boolean VerifyURL(WebDriver driver, String expectedURL) {
         try {
             generalWait(driver).until(ExpectedConditions.urlToBe(expectedURL));
