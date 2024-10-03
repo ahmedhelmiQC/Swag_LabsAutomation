@@ -1,0 +1,6 @@
+[INFO] 03-10-2024 16:50:31 [main] [Tests.T06_FinishOrderTest.setup(T06_FinishOrderTest.java:35)] - EdgeDriver is opened
+[INFO] 03-10-2024 16:50:32 [main] [Tests.T06_FinishOrderTest.setup(T06_FinishOrderTest.java:37)] - Page is redirect to the Home Page 
+[INFO] 03-10-2024 16:50:32 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCasefinishingOrderTCstarted
+[INFO] 03-10-2024 16:50:33 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:37)] - number of all products: 6
+[INFO] 03-10-2024 16:50:35 [main] [Tests.T06_FinishOrderTest.finishingOrderTC(T06_FinishOrderTest.java:53)] - fTest-2024-10-03-4-50-25PM lTest-2024-10-03-4-50-25PM 39941
+[INFO] 03-10-2024 16:50:35 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - TestCasefinishingOrderTCpassed

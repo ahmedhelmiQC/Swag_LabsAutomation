@@ -4,10 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="delete logs">
+    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="&quot; Utility.java / TC03_CartTest.java&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/P06_FinishOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/P06_FinishOrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/T06_FinishOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/T06_FinishOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-10-02_03-01-22 PM.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-10-02_12-14-21 AM.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_07_19_55_23_207.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_00_48_13_680.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_05_59_06_953.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_06_02_09_394.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_14_06_02_21_654.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_15_22_57_33_078.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_15_23_00_41_539.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_15_23_06_35_225.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/2024_09_15_23_17_40_130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-07-11-21-43PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-07-5-23-14PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-07-7-55-23PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-12-48-13AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-5-59-06AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-6-2-08AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-14-6-2-21AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkingNumberOfSelectedProductsWithOnCartTC-2024-09-15-10-57-32PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkoutStepOneTC-2024-09-30-12-44-02AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkoutStepOneTC-2024-09-30-12-53-48AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/clickOnCartButton-2024-09-16-9-55-36PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/clickOnContuneButtonTC-2024-09-29-11-44-10PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/clickOnContuneButtonTC-2024-09-29-11-46-37PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/comparingPriceTC-2024-09-29-10-26-05AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/comparingPriceTC2-2024-09-26-11-17-07AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/getprice1-2024-09-26-2-20-31PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/setup-2024-09-28-7-21-39AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/validLoginTC-2024-08-18-10-16-02PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/validLoginTC-2024-08-18-10-32-22PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/validLoginTC-2024-09-07-3-13-32PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
     </list>
     <list id="new-id-1234" name="New Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +67,10 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2kPidYcUGlnCT5MvHgXPex74IHr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,9 +85,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.T06_FinishOrder.executor": "Run",
+    "TestNG.T06_FinishOrderTest.checkoutStepOneTC.executor": "Run",
+    "TestNG.T06_FinishOrderTest.executor": "Run",
     "TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor": "Run",
     "TestNG.TC02_LandingPage.getprice1.executor": "Run",
+    "TestNG.TC03_CartTest.comparingPriceTC (1).executor": "Debug",
     "TestNG.TC03_CartTest.comparingPriceTC.executor": "Run",
+    "TestNG.TC03_CartTest.executor": "Run",
+    "TestNG.TC05_Overview.checkoutStepOneTC.executor": "Run",
+    "TestNG.TC05_Overview.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/Nezam/Swag_LabsAutomation",
@@ -67,7 +106,25 @@
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC03_CartTest.comparingPriceTC">
+  <component name="RunManager">
+    <configuration name="T06_FinishOrderTest.checkoutStepOneTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.T06_FinishOrderTest" />
+      <option name="METHOD_NAME" value="checkoutStepOneTC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC01_Login" type="TestNG" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
@@ -103,8 +160,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC05_Overview.checkoutStepOneTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TC05_Overview" />
+      <option name="METHOD_NAME" value="checkoutStepOneTC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.T06_FinishOrderTest.checkoutStepOneTC" />
+        <item itemvalue="TestNG.TC05_Overview.checkoutStepOneTC" />
         <item itemvalue="TestNG.TC03_CartTest.comparingPriceTC" />
       </list>
     </recent_temporary>
@@ -134,12 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727869994734</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot; Utility.java / TC03_CartTest.java&quot;">
+      <option name="closed" value="true" />
+      <created>1727871104278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727871104278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="workspace + CartTest case" />
     <MESSAGE value="delete logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete logs" />
+    <MESSAGE value="&quot; Utility.java / TC03_CartTest.java&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot; Utility.java / TC03_CartTest.java&quot;" />
   </component>
 </project>

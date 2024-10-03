@@ -1,0 +1,7 @@
+[INFO] 03-10-2024 15:31:20 [main] [Tests.T06_FinishOrderTest.setup(T06_FinishOrder.java:35)] - EdgeDriver is opened
+[INFO] 03-10-2024 15:31:22 [main] [Tests.T06_FinishOrderTest.setup(T06_FinishOrder.java:37)] - Page is redirect to the Home Page
+[INFO] 03-10-2024 15:31:23 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCasecheckoutStepOneTCstarted
+[INFO] 03-10-2024 15:31:23 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:37)] - number of all products: 6
+[INFO] 03-10-2024 15:31:25 [main] [Tests.T06_FinishOrderTest.checkoutStepOneTC(T06_FinishOrder.java:47)] - fTest-2024-10-03-3-31-15PM lTest-2024-10-03-3-31-15PM 76794
+[INFO] 03-10-2024 15:31:25 [main] [Tests.T06_FinishOrderTest.checkoutStepOneTC(T06_FinishOrder.java:49)] - Finish Message : Thank you for your order!
+[INFO] 03-10-2024 15:31:25 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - TestCasecheckoutStepOneTCpassed
