@@ -1,7 +1,0 @@
-[INFO] 30-09-2024 00:43:52 [main] [Tests.TC04_Checkout.setup(TC04_Checkout.java:36)] - EdgeDriver is opened
-[INFO] 30-09-2024 00:43:53 [main] [Tests.TC04_Checkout.setup(TC04_Checkout.java:38)] - Page is redirect to the Home Page 
-[INFO] 30-09-2024 00:43:53 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCasecheckoutStepOneTCstarted
-[INFO] 30-09-2024 00:43:54 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 2
-[INFO] 30-09-2024 00:43:55 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 4
-[INFO] 30-09-2024 00:43:55 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 6
-[INFO] 30-09-2024 00:44:01 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - TestCasecheckoutStepOneTCfailed

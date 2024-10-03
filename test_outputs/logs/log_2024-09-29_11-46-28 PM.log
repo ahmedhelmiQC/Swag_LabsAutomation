@@ -1,4 +1,0 @@
-[INFO] 29-09-2024 23:46:29 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:37)] - EdgeDriver is opened
-[INFO] 29-09-2024 23:46:30 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:39)] - Page is redirect to the Home Page 
-[INFO] 29-09-2024 23:46:31 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCaseclickOnContuneButtonTCstarted
-[INFO] 29-09-2024 23:46:37 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - TestCaseclickOnContuneButtonTCfailed

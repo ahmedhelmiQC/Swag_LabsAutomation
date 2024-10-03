@@ -1,5 +1,0 @@
-[INFO] 30-09-2024 00:28:38 [main] [Tests.TC04_Checkout.setup(TC04_Checkout.java:31)] - EdgeDriver is opened
-[INFO] 30-09-2024 00:28:40 [main] [Tests.TC04_Checkout.setup(TC04_Checkout.java:33)] - Page is redirect to the Home Page 
-[INFO] 30-09-2024 00:28:41 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 1
-[INFO] 30-09-2024 00:28:41 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 4
-[INFO] 30-09-2024 00:28:41 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 5
