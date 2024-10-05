@@ -115,6 +115,7 @@ public class Utility {
         }
         return true;
     }
+                ///// File::lastModified //
     public static File getLastFile(String folderPath){
         File folder = new File(folderPath);
         File [] files = folder.listFiles();
@@ -124,6 +125,16 @@ public class Utility {
         Arrays.sort(files,Comparator.comparingLong(File::lastModified).reversed());
         return files[0];
     }
+
+                /// Get All Cookies ///
+    public static Set<Cookie> getAllCookies(WebDriver driver){
+        return driver.manage().getCookies();
+    }
+    public static void restoreSession(WebDriver driver, Set<Cookie> cookies){
+        for (Cookie cookie : cookies)
+            driver.manage().addCookie(cookie);
+    }
+
     
 
 }
