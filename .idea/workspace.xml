@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="Creating Finish Order TC" />
+    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="Creating Finish Order TC">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Listeners/IInvokedMethodListenerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Listeners/IInvokedMethodListenerClass.java" afterDir="false" />
+    </list>
     <list id="new-id-1234" name="New Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,27 +46,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor": "Run",
-    "TestNG.TC02_LandingPage.getprice1.executor": "Run",
-    "TestNG.TC03_CartTest.comparingPriceTC.executor": "Run",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Nezam/POMSessions",
-    "settings.editor.selected.configurable": "preferences.customizations"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC02_LandingPage.getprice1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TC03_CartTest.comparingPriceTC.executor&quot;: &quot;Run&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Nezam/POMSessions&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC04_Checkout.checkoutStepOneTC">
+  <component name="RunManager" selected="TestNG.E:/Nezam/Swag_LabsAutomation/Test Runner/LoginSuite.xml">
+    <configuration name="E:/Nezam/Swag_LabsAutomation/Test Runner/LoginSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Test Runner/LoginSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC01_Login" type="TestNG" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
@@ -137,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/Nezam/Swag_LabsAutomation/Test Runner/LoginSuite.xml" />
         <item itemvalue="TestNG.TC04_Checkout.checkoutStepOneTC" />
         <item itemvalue="TestNG.TC02_LandingPage.clickOnContuneButtonTC" />
         <item itemvalue="TestNG.TC03_CartTest.comparingPriceTC" />
@@ -192,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728130299721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creating Finish Order TC">
+      <option name="closed" value="true" />
+      <created>1728130639466</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728130639466</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
