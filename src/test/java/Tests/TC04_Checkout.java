@@ -46,7 +46,7 @@ public class TC04_Checkout {
                 .clickOnCartIcon().clickOnCheckOnButton()
                 .fillingInformationForm(FirstName,LastName,ZipCode).clickOnContinueButton();
         LogsUtilis.info(FirstName + " "+ LastName + " " + ZipCode);
-        Assert.assertTrue(Utility.VerifyURL(getDriver(),getPropertyValue("environment","Checkout_URL")));
+        Assert.assertTrue(Utility.VerifyURL(getDriver(),getPropertyValue("environment","FinishOrder_URL")));
     }
     @AfterMethod
     public void quite() throws IOException {

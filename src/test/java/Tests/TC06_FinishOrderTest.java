@@ -21,14 +21,14 @@ import static DriverFactory.DriverFactory.*;
 import static Utilities.Data_Utilis.getPropertyValue;
 @Listeners({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
 
-public class TC06_FinishTest {
+public class TC06_FinishOrderTest {
     private final String UserName= Data_Utilis.getJsonData("validLogin","username");
     private final String Password= Data_Utilis.getJsonData("validLogin","password");
     private final String FirstName = Data_Utilis.getJsonData("information","fName")+"-"+ Utility.getTimestamp();
     private final String LastName = Data_Utilis.getJsonData("information","lName")+"-"+Utility.getTimestamp();
     private final String ZipCode = new Faker().number().digits(5);
 
-    public TC06_FinishTest() throws FileNotFoundException {
+    public TC06_FinishOrderTest() throws FileNotFoundException {
     }
 
 
@@ -41,7 +41,7 @@ public class TC06_FinishTest {
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
     @Test
-    public void checkTotalPriceTC () throws IOException {
+    public void finishOrderTC () throws IOException {
         //ToDo login Step
         new P01_LoginPage(getDriver()).enterUserName(UserName)
                 .enterPassword(Password).clickOnLoginButton();
@@ -56,7 +56,7 @@ public class TC06_FinishTest {
         // ToDo Go To Overview Page
         new P05_OverviewPage(getDriver()).clickOnFinishButton();
 
-        Assert.assertTrue(new TC06_FinishTest(getDriver()).);
+        Assert.assertTrue(new P06_FinishOrderPage(getDriver()).checkVisibilityOfThanksMessage());
     }
     @AfterMethod
     public void quite() throws IOException {

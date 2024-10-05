@@ -5,12 +5,12 @@ import org.openqa.selenium.WebDriver;
 
 import static Utilities.Utility.findWebElement;
 
-public class P06_FinishPage {
+public class P06_FinishOrderPage {
     private final WebDriver driver;
 
     private final By thanksMessage = By.tagName("h2");
     private final By backToHomePage = By.id("back-to-products");
-    public P06_FinishPage(WebDriver driver) {
+    public P06_FinishOrderPage(WebDriver driver) {
         this.driver = driver;
     }
 

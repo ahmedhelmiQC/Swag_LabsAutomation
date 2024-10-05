@@ -1,8 +1,0 @@
-[INFO] 03-10-2024 23:17:37 [main] [Tests.TC05_Overview.setup(TC05_Overview.java:38)] - EdgeDriver is opened
-[INFO] 03-10-2024 23:17:38 [main] [Tests.TC05_Overview.setup(TC05_Overview.java:40)] - Page is redirect to the Home Page 
-[INFO] 03-10-2024 23:17:39 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCasecheckTotalPriceTCstarted
-[INFO] 03-10-2024 23:17:39 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 2
-[INFO] 03-10-2024 23:17:40 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 3
-[INFO] 03-10-2024 23:17:40 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 6
-[INFO] 03-10-2024 23:17:41 [main] [Tests.TC05_Overview.checkTotalPriceTC(TC05_Overview.java:50)] - fTest-2024-10-03-11-17-30PM lTest-2024-10-03-11-17-30PM 31432
-[INFO] 03-10-2024 23:17:51 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:20)] - TestCasecheckTotalPriceTCfailed

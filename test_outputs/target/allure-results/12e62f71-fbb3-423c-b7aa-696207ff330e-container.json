@@ -1,1 +1,0 @@
-{"uuid":"12e62f71-fbb3-423c-b7aa-696207ff330e","name":"Tests.TC02_LandingPage.setup","children":["1717d0ae-c061-4515-a772-96d901340764"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1725678921280,"stop":1725678937802}],"afters":[],"start":1725678921279,"stop":1725678937802}

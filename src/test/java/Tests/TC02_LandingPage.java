@@ -64,13 +64,13 @@ public class TC02_LandingPage {
         Assert.assertTrue(new P02_LandingPage(getDriver()).
                 verifyCartPageURL(getPropertyValue("environment","CartPage_URL")));
     }
-    @Test
-    public void getprice1(){
-        new P01_LoginPage(getDriver()).enterUserName(UserName)
-                .enterPassword(Password).clickOnLoginButton();
-    }
+//    @Test
+//    public void getprice1(){
+//        new P01_LoginPage(getDriver()).enterUserName(UserName)
+//                .enterPassword(Password).clickOnLoginButton();
+//    }
         @Test
-        public void clickOnContuneButtonTC () throws IOException {
+        public void clickOnCheckOnButtonTC () throws IOException {
             new P01_LoginPage(getDriver()).enterUserName(UserName)
                     .enterPassword(Password).clickOnLoginButton()
                     .addRandomProducts(5,6)

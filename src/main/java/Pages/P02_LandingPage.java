@@ -28,9 +28,9 @@ public class P02_LandingPage {
     }
 
 
-    public By getNumberOfSelectedProductsOnCart() {
-        return numberOfProductsOnCartIcon;
-    }
+//    public By getNumberOfSelectedProductsOnCart() {
+//        return numberOfProductsOnCartIcon;
+//    }
 
     public P02_LandingPage addAllProductsToCart() {
         allProducts = driver.findElements(addToCartButtonForAllProducts); //6 1,2,3,4,5,6
@@ -82,6 +82,7 @@ public class P02_LandingPage {
 
     public boolean verifyCartPageURL(String expectedURL) {
         try {
+            LogsUtilis.info("Checkout_URL : "+ generalWait(driver).until(ExpectedConditions.urlToBe(expectedURL)));
             generalWait(driver).until(ExpectedConditions.urlToBe(expectedURL));
         } catch (Exception e) {
             return false;

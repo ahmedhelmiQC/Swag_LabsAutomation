@@ -29,15 +29,15 @@ public class P05_OverviewPage {
         return Float.parseFloat(Utility.getText(driver,total).replace("Total: $",""));
     }
     public String calculatingTotalPrice(){
-        LogsUtilis.info("Total Price : "+ getSubTotal()+ getTax());
+        LogsUtilis.info("Calculated Total Price : "+ getSubTotal()+ getTax());
     return String.valueOf(getSubTotal()+ getTax());
     }
     public boolean comparingPrice(){
         return calculatingTotalPrice().equals(String.valueOf(actualTotalPrice()));
     }
-    public P06_FinishPage clickOnFinishButton(){
+    public P06_FinishOrderPage clickOnFinishButton(){
         Utility.clickingOnElement(driver,finishButton);
-        return new P06_FinishPage(driver);
+        return new P06_FinishOrderPage(driver);
     }
 
 

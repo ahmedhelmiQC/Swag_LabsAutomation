@@ -2,8 +2,7 @@ package Tests;
 
 import Listeners.IInvokedMethodListenerClass;
 import Listeners.ITestResultListenerClass;
-import Pages.P01_LoginPage;
-import Pages.P05_OverviewPage;
+import Pages.*;
 import Utilities.Data_Utilis;
 import Utilities.LogsUtilis;
 import Utilities.Utility;
@@ -42,11 +41,16 @@ public class TC05_Overview {
     }
     @Test
     public void checkTotalPriceTC () throws IOException {
+                 //ToDo login Step
         new P01_LoginPage(getDriver()).enterUserName(UserName)
-                .enterPassword(Password).clickOnLoginButton()
-                .addAllProductsToCart()
-                .clickOnCartIcon().clickOnCheckOnButton()
-                .fillingInformationForm(FirstName,LastName,ZipCode).clickOnContinueButton();
+                .enterPassword(Password).clickOnLoginButton();
+                //ToDo Add AllProducts To Cart Step
+        new P02_LandingPage(getDriver()).addAllProductsToCart().clickOnCartIcon();
+                // ToDo Go To CheckOn Page Step
+        new P03_CartPage(getDriver()).clickOnCheckOnButton();
+                //ToDo Filling Information Step
+        new P04_CheckoutPage(getDriver()).fillingInformationForm(FirstName,LastName,ZipCode)
+                .clickOnContinueButton();
         LogsUtilis.info(FirstName + " "+ LastName + " " + ZipCode);
         Assert.assertTrue(new P05_OverviewPage(getDriver()).comparingPrice());
     }
