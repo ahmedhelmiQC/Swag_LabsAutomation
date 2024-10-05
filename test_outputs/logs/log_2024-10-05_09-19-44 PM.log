@@ -1,0 +1,11 @@
+[INFO] 05-10-2024 21:19:45 [main] [Tests.TC04_Checkout.Login(TC04_Checkout.java:37)] - EdgeDriver is opened
+[INFO] 05-10-2024 21:19:46 [main] [Tests.TC04_Checkout.Login(TC04_Checkout.java:39)] - Page is redirect to the Home Page 
+[INFO] 05-10-2024 21:19:53 [main] [Tests.TC04_Checkout.setup(TC04_Checkout.java:49)] - EdgeDriver is opened
+[INFO] 05-10-2024 21:19:54 [main] [Tests.TC04_Checkout.setup(TC04_Checkout.java:51)] - Page is redirect to the BASE Page 
+[INFO] 05-10-2024 21:19:54 [main] [Tests.TC04_Checkout.setup(TC04_Checkout.java:54)] - Page is redirect to the Home Page 
+[INFO] 05-10-2024 21:19:55 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:11)] - TestCasecheckoutStepOneTCstarted
+[INFO] 05-10-2024 21:19:55 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 1
+[INFO] 05-10-2024 21:19:55 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 2
+[INFO] 05-10-2024 21:19:56 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:68)] - randomNumber 4
+[INFO] 05-10-2024 21:19:57 [main] [Tests.TC04_Checkout.checkoutStepOneTC(TC04_Checkout.java:64)] - fTest-2024-10-05-9-19-37PM lTest-2024-10-05-9-19-37PM 16705
+[INFO] 05-10-2024 21:19:57 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:15)] - TestCasecheckoutStepOneTCpassed
