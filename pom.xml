@@ -34,29 +34,60 @@
         <shutterBugVersion>1.6</shutterBugVersion>
 
     </properties>
+    <profiles>
+        <profile>
+          <id>RegressionProfile</id>
+            <build>
+                <directory>test_outputs/target</directory>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.1.2</version>
+                        <configuration>
+                            <argLine>
+                                -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                            </argLine>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>
+                                    ${suite.Regression}
+                                </suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
 
-    <build>
-        <directory>test_outputs/target</directory>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.1.2</version>
-                <configuration>
-                    <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                    </argLine>
-                <suiteXmlFiles>
-                    <suiteXmlFile>
-                    ${suite.Regression}
-                    </suiteXmlFile>
-                </suiteXmlFiles>
-                </configuration>
+                    </plugin>
+                </plugins>
 
-            </plugin>
-        </plugins>
+            </build>
+        </profile>
 
-    </build>
+      <profile>
+            <id>LoginProfile</id>
+            <build>
+                <directory>test_outputs/target</directory>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.1.2</version>
+                        <configuration>
+                            <argLine>
+                                -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                            </argLine>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>
+                                    ${suite.Login}
+                                </suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+
+                    </plugin>
+                </plugins>
+
+            </build>
+        </profile>
+    </profiles>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
