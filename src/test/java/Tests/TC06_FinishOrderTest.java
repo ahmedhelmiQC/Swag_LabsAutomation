@@ -19,15 +19,18 @@ import java.time.Duration;
 
 import static DriverFactory.DriverFactory.*;
 import static Utilities.Data_Utilis.getPropertyValue;
-@Listeners ({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
-public class T06_FinishOrderTest {
+@Listeners({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
+
+public class TC06_FinishOrderTest {
     private final String UserName= Data_Utilis.getJsonData("validLogin","username");
     private final String Password= Data_Utilis.getJsonData("validLogin","password");
     private final String FirstName = Data_Utilis.getJsonData("information","fName")+"-"+ Utility.getTimestamp();
     private final String LastName = Data_Utilis.getJsonData("information","lName")+"-"+Utility.getTimestamp();
     private final String ZipCode = new Faker().number().digits(5);
-    public T06_FinishOrderTest() throws FileNotFoundException {
+
+    public TC06_FinishOrderTest() throws FileNotFoundException {
     }
+
 
     @BeforeMethod
     public void setup() throws IOException {
@@ -38,23 +41,22 @@ public class T06_FinishOrderTest {
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
     @Test
-    public void finishingOrderTC () {
-        //ToDo : Login Steps
+    public void finishOrderTC () throws IOException {
+        //ToDo login Step
         new P01_LoginPage(getDriver()).enterUserName(UserName)
                 .enterPassword(Password).clickOnLoginButton();
-                //ToDo : Adding Products Step
-          new P02_LandingPage(getDriver()).addAllProductsToCart()
-                .clickOnCartIcon();
-                //ToDo : Go To Checkout Page Step
-          new P03_CartPage(getDriver()).clickOnCheckOnButton();
-                //ToDo : FillingInformation Step
-          new P04_CheckoutPage(getDriver()).fillingInformationForm(FirstName,LastName,ZipCode)
-                        .clickOnContinueButton();
-            LogsUtilis.info(FirstName + " "+ LastName + " " + ZipCode);
-                //ToDo : Go To Finish Order
-           new P05_OverviewPage(getDriver()).clickOnFinishButton();
+        //ToDo Add AllProducts To Cart Step
+        new P02_LandingPage(getDriver()).addAllProductsToCart().clickOnCartIcon();
+        // ToDo Go To CheckOn Page Step
+        new P03_CartPage(getDriver()).clickOnCheckOnButton();
+        //ToDo Filling Information Step
+        new P04_CheckoutPage(getDriver()).fillingInformationForm(FirstName,LastName,ZipCode)
+                .clickOnContinueButton();
+        LogsUtilis.info(FirstName + " "+ LastName + " " + ZipCode);
+        // ToDo Go To Overview Page
+        new P05_OverviewPage(getDriver()).clickOnFinishButton();
 
-       Assert.assertTrue(new P06_FinishOrderPage(getDriver()).checkVisibilityOfThanksMessage());
+        Assert.assertTrue(new P06_FinishOrderPage(getDriver()).checkVisibilityOfThanksMessage());
     }
     @AfterMethod
     public void quite() throws IOException {

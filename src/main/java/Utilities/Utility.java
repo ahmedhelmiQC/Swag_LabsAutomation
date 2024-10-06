@@ -14,10 +14,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.Date;
-import java.util.HashSet;
-import java.util.Random;
-import java.util.Set;
+import java.util.*;
 
 public class Utility {
     private static final String SCREENSHOT_PATH = "test_outputs/screenshot/";
@@ -118,6 +115,26 @@ public class Utility {
         }
         return true;
     }
+                ///// File::lastModified //
+    public static File getLastFile(String folderPath){
+        File folder = new File(folderPath);
+        File [] files = folder.listFiles();
+        assert files != null;
+        if (files.length==0)
+            return null;
+        Arrays.sort(files,Comparator.comparingLong(File::lastModified).reversed());
+        return files[0];
+    }
+
+                /// Get All Cookies ///
+    public static Set<Cookie> getAllCookies(WebDriver driver){
+        return driver.manage().getCookies();
+    }
+    public static void restoreSession(WebDriver driver, Set<Cookie> cookies){
+        for (Cookie cookie : cookies)
+            driver.manage().addCookie(cookie);
+    }
+
     
 
 }
