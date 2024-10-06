@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="allure-report">
+    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="Cookies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/addingRandomProductsToCartTC-2024-10-05-7-37-00PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkTotalPriceTC-2024-10-03-11-17-51PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkoutStepOneTC-2024-10-04-10-21-34PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkoutStepOneTC-2024-10-04-10-57-39PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/checkoutStepOneTC-2024-10-04-11-17-36PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/clickOnContuneButtonTC-2024-10-04-10-54-04PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/clickOnContuneButtonTC-2024-10-04-10-55-47PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/clickOnContuneButtonTC-2024-10-04-8-48-34PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/clickOnContuneButtonTC-2024-10-04-8-52-55PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/screenshot/clickOnContuneButtonTC-2024-10-04-9-0-14PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/T06_FinishOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/T06_FinishOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC01_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC01_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC03_CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC04_Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC04_Checkout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC05_Overview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC05_Overview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC06_FinishOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC06_FinishOrderTest.java" afterDir="false" />
     </list>
     <list id="new-id-1234" name="New Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/Nezam/POMSessions&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -80,7 +78,7 @@
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E:/Nezam/Swag_LabsAutomation/Test Runner/CheckoutSuite.xml">
+  <component name="RunManager">
     <configuration name="E:/Nezam/Swag_LabsAutomation/Test Runner/CheckoutSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Test Runner/CheckoutSuite.xml" />
@@ -260,6 +258,10 @@
     <MESSAGE value="Creating Finish Order TC" />
     <MESSAGE value="allure-report" />
     <option name="LAST_COMMIT_MESSAGE" value="allure-report" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Swag_LabsAutomation$TC02_LandingPage_checkingNumberOfSelectedProductsWithOnCartTC.ic" NAME="TC02_LandingPage.checkingNumberOfSelectedProductsWithOnCartTC Coverage Results" MODIFIED="1726263565725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -44,6 +44,8 @@ public class TC05_Overview {
     }
     @BeforeMethod
     public void setup() throws IOException {
+        String browser = System.getProperty("browser") !=null ? System.getProperty("browser") : getPropertyValue("environment","Browser");
+        LogsUtilis.info(System.getProperty("Browser"));
         setupDriver(getPropertyValue("environment","Browser"));
         LogsUtilis.info("EdgeDriver is opened");
         getDriver().get(getPropertyValue("environment","BASE_URL"));

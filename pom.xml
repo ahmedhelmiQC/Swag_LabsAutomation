@@ -28,7 +28,7 @@
         <suite.CartTest> Runner/CartSuite.xml</suite.CartTest>
         <suite.Checkout>Test Runner/CheckoutSuite.xml</suite.Checkout>
         <suite.Overview>Test Runner/OverviewSuite.xml</suite.Overview>
-        <suite.FinishaOrder>Test Runner/FinishaOrderSuite.xml</suite.FinishaOrder>
+        <suite.FinishaOrder>Test Runner/FinishOrderSuite.xml</suite.FinishaOrder>
         <suite.Regression>Test Runner/RegressionSuite.xml</suite.Regression>
 
         <shutterBugVersion>1.6</shutterBugVersion>
