@@ -22,12 +22,12 @@ import static Utilities.Utility.*;
 
 
 @Listeners ({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
-public class TC02_LandingPage {
+public class TC02_LandingTest {
     private Set<Cookie> cookies;
     private final String UserName= Data_Utilis.getJsonData("validLogin","username");
     private final String Password= Data_Utilis.getJsonData("validLogin","password");
 
-    public TC02_LandingPage() throws FileNotFoundException {
+    public TC02_LandingTest() throws FileNotFoundException {
     }
     @BeforeClass
     public void Login() throws IOException {

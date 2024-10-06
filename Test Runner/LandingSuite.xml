@@ -6,7 +6,7 @@
     </listeners>
     <test name="Landing Test">
         <classes>
-            <class name="Tests.TC02_LandingPage"/>
+            <class name="Tests.TC02_LandingTest"/>
         </classes>
     </test>
 </suite>

@@ -23,6 +23,13 @@
         <allureversion>2.28.1</allureversion>
         <commons-io>2.16.1</commons-io>
         <aspectj.version>1.9.20.1</aspectj.version>
+        <suite.Login>Test Runner/LoginSuite.xml</suite.Login>
+        <suite.Landing>Test Runner/LandingSuite.xml</suite.Landing>
+        <suite.CartTest> Runner/CartSuite.xml</suite.CartTest>
+        <suite.Checkout>Test Runner/CheckoutSuite.xml</suite.Checkout>
+        <suite.Overview>Test Runner/OverviewSuite.xml</suite.Overview>
+        <suite.FinishaOrder>Test Runner/FinishaOrderSuite.xml</suite.FinishaOrder>
+        <suite.Regression>Test Runner/RegressionSuite.xml</suite.Regression>
 
         <shutterBugVersion>1.6</shutterBugVersion>
 
@@ -39,6 +46,11 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
+                <suiteXmlFiles>
+                    <suiteXmlFile>
+                    ${suite.Regression}
+                    </suiteXmlFile>
+                </suiteXmlFiles>
                 </configuration>
 
             </plugin>

@@ -7,7 +7,7 @@
     <test name="Regression Test">
         <classes>
             <class name="Tests.TC01_Login"/>
-            <class name="Tests.TC02_LandingPage"/>
+            <class name="Tests.TC02_LandingTest"/>
             <class name="Tests.TC03_CartTest"/>
             <class name="Tests.TC04_Checkout"/>
             <class name="Tests.TC05_Overview"/>
