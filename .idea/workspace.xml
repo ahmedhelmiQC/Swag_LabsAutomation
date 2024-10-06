@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="allure-report">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC04_Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC04_Checkout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/classes/Utilities/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Runner/LandingSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Test Runner/LandingSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test Runner/RegressionSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Test Runner/RegressionSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC02_LandingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TC05_Overview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TC05_Overview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-10-04_11-16-55 PM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-10-04_11-16-55 PM.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-10-05_07-36-46 PM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-10-05_07-36-46 PM.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/logs/log_2024-10-05_07-43-53 PM.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_outputs/logs/log_2024-10-05_07-43-53 PM.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_outputs/target/test-classes/Tests/TC02_LandingPage.class" beforeDir="false" />
     </list>
     <list id="new-id-1234" name="New Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,27 +61,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC02_LandingPage.getprice1.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC03_CartTest.comparingPriceTC.executor&quot;: &quot;Run&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Nezam/POMSessions&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.D:/testing/Automation project/Swag_LabsAutomation/Test Runner/FinishaOrderSuite.xml.executor": "Run",
+    "TestNG.E:/Nezam/Swag_LabsAutomation/Test Runner/LoginSuite.xml.executor": "Run",
+    "TestNG.TC02_LandingPage.addingRandomProductsToCartTC.executor": "Run",
+    "TestNG.TC02_LandingPage.getprice1.executor": "Run",
+    "TestNG.TC03_CartTest.comparingPriceTC.executor": "Run",
+    "TestNG.TC05_Overview.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Nezam/POMSessions",
+    "settings.editor.selected.configurable": "preferences.customizations"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E:/Nezam/Swag_LabsAutomation/Test Runner/CheckoutSuite.xml">
+  <component name="RunManager" selected="TestNG.E:/Nezam/Swag_LabsAutomation/Test Runner/LoginSuite.xml">
+    <configuration name="D:/testing/Automation project/Swag_LabsAutomation/Test Runner/FinishaOrderSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Swag_LabsAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Test Runner/FinishaOrderSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="E:/Nezam/Swag_LabsAutomation/Test Runner/CheckoutSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Test Runner/CheckoutSuite.xml" />
@@ -123,24 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC02_LandingPage.clickOnContuneButtonTC" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Swag_LabsAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TC02_LandingPage" />
-      <option name="METHOD_NAME" value="clickOnContuneButtonTC" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TC04_Checkout.checkoutStepOneTC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Swag_LabsAutomation" />
       <extension name="coverage">
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.E:/Nezam/Swag_LabsAutomation/Test Runner/LoginSuite.xml" />
+        <item itemvalue="TestNG.D:/testing/Automation project/Swag_LabsAutomation/Test Runner/FinishaOrderSuite.xml" />
         <item itemvalue="TestNG.E:/Nezam/Swag_LabsAutomation/Test Runner/CheckoutSuite.xml" />
         <item itemvalue="TestNG.E:/Nezam/Swag_LabsAutomation/Test Runner/LandingSuite.xml" />
-        <item itemvalue="TestNG.E:/Nezam/Swag_LabsAutomation/Test Runner/LoginSuite.xml" />
         <item itemvalue="TestNG.TC04_Checkout.checkoutStepOneTC" />
-        <item itemvalue="TestNG.TC02_LandingPage.clickOnContuneButtonTC" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728132252929</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="allure-report">
+      <option name="closed" value="true" />
+      <created>1728200785695</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728200785695</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
