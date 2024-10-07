@@ -29,7 +29,9 @@ public class TC01_Login {
 
     @BeforeMethod
     public void setup() throws IOException {
-        setupDriver(getPropertyValue("environment","Browser"));
+        String browser = System.getProperty("browser") !=null ? System.getProperty("browser") : getPropertyValue("environment","Browser");
+       LogsUtilis.info(System.getProperty("Browser"));
+        setupDriver(browser);
         LogsUtilis.info("EdgeDriver is opened");
         getDriver().get(getPropertyValue("environment","BASE_URL"));
         LogsUtilis.info("Page is redirect to the Home Page ");
