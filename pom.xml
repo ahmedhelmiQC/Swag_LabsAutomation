@@ -20,8 +20,12 @@
         <Slf4j_APIjversion>2.0.13</Slf4j_APIjversion>
         <gsonversion>2.11.0</gsonversion>
         <javafakerversion>1.0.2</javafakerversion>
-        <allureversion>2.28.1</allureversion>
+        <shutterBugVersion>1.6</shutterBugVersion>
+        <allure.version>2.29.0</allure.version>
         <commons-io>2.16.1</commons-io>
+        <surefire.version>3.1.2</surefire.version>
+        <allureMaven>2.12.0</allureMaven>
+        <allureAPI.version>2.30.0</allureAPI.version>
         <aspectj.version>1.9.20.1</aspectj.version>
         <suite.Login>Test Runner/LoginSuite.xml</suite.Login>
         <suite.Landing>Test Runner/LandingSuite.xml</suite.Landing>
@@ -31,62 +35,85 @@
         <suite.FinishaOrder>Test Runner/FinishOrderSuite.xml</suite.FinishaOrder>
         <suite.Regression>Test Runner/RegressionSuite.xml</suite.Regression>
 
-        <shutterBugVersion>1.6</shutterBugVersion>
-
     </properties>
+
+    <build>
+        <directory>test_outputs/target</directory>
+        <plugins>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>${allureMaven}</version>
+                <executions>
+                    <execution>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>
+                                serve
+                            </goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <reportVersion>${allure.version}</reportVersion>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${surefire.version}</version>
+                <configuration>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>
+                            ${suite.Regression}
+                        </suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <profiles>
         <profile>
-          <id>RegressionProfile</id>
+            <id>Regression</id>
             <build>
-                <directory>test_outputs/target</directory>
                 <plugins>
+                    <plugin>
+                        <groupId>io.qameta.allure</groupId>
+                        <artifactId>allure-maven</artifactId>
+                        <configuration>
+                            <reportVersion>${allure.version}</reportVersion>
+                        </configuration>
+                    </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.1.2</version>
+                        <version>${surefire.version}</version>
+                        <executions>
+                            <execution>
+                                <goals>
+                                    <goal>
+                                        test
+                                    </goal>
+                                </goals>
+                            </execution>
+                        </executions>
                         <configuration>
-                            <argLine>
-                                -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                            </argLine>
                             <suiteXmlFiles>
                                 <suiteXmlFile>
                                     ${suite.Regression}
                                 </suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
-
                     </plugin>
                 </plugins>
-
-            </build>
-        </profile>
-
-      <profile>
-            <id>LoginProfile</id>
-            <build>
-                <directory>test_outputs/target</directory>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <version>3.1.2</version>
-                        <configuration>
-                            <argLine>
-                                -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                            </argLine>
-                            <suiteXmlFiles>
-                                <suiteXmlFile>
-                                    ${suite.Login}
-                                </suiteXmlFile>
-                            </suiteXmlFiles>
-                        </configuration>
-
-                    </plugin>
-                </plugins>
-
             </build>
         </profile>
     </profiles>
+
+
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -94,13 +121,6 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${seleniumversion}</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>${TestNGversion}</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
@@ -145,7 +165,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <version>${allureversion}</version>
+            <version>${allure.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
         <dependency>
@@ -154,11 +174,6 @@
             <version>${commons-io}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>${aspectj.version}</version>
-        </dependency>
 
 
         <dependency>
@@ -178,13 +193,18 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
-        </dependency>
 
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-plugin-api -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-plugin-api</artifactId>
+            <version>${allureAPI.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
 
     </dependencies>
 

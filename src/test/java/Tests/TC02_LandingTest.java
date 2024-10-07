@@ -31,7 +31,9 @@ public class TC02_LandingTest {
     }
     @BeforeClass
     public void Login() throws IOException {
-    setupDriver(getPropertyValue("environment","Browser"));
+        String browser = System.getProperty("Browser") !=null ? System.getProperty("Browser") : getPropertyValue("environment","Browser");
+        LogsUtilis.info(System.getProperty("Browser"));
+    setupDriver(browser);
     LogsUtilis.info("EdgeDriver is opened");
     getDriver().get(getPropertyValue("environment","BASE_URL"));
     LogsUtilis.info("Page is redirect to the Home Page ");
@@ -43,9 +45,7 @@ public class TC02_LandingTest {
     }
     @BeforeMethod
     public void setup() throws IOException {
-        String browser = System.getProperty("browser") !=null ? System.getProperty("browser") : getPropertyValue("environment","Browser");
-        LogsUtilis.info(System.getProperty("Browser"));
-        setupDriver(getPropertyValue("environment","Browser"));
+       setupDriver(getPropertyValue("environment","Browser"));
         LogsUtilis.info("EdgeDriver is opened");
         getDriver().get(getPropertyValue("environment","BASE_URL"));
         LogsUtilis.info("Page is redirect to the Home Page ");

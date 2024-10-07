@@ -29,7 +29,7 @@ public class TC01_Login {
 
     @BeforeMethod
     public void setup() throws IOException {
-        String browser = System.getProperty("browser") !=null ? System.getProperty("browser") : getPropertyValue("environment","Browser");
+        String browser = System.getProperty("Browser") !=null ? System.getProperty("Browser") : getPropertyValue("environment","Browser");
        LogsUtilis.info(System.getProperty("Browser"));
         setupDriver(browser);
         LogsUtilis.info("EdgeDriver is opened");
