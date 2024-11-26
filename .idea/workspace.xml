@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment=" Integrating Maven with Allure" />
+    <list default="true" id="df1316b1-2a96-4aef-9bde-e6d79b893a5c" name="Changes" comment="Regression test suit by Maven">
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/bin/allure.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/config/allure-cucumber.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/config/allure-junit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.29.0/config/allure.yml" beforeDir="false" />
+    </list>
     <list id="new-id-1234" name="New Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732631774678</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Regression test suit by Maven">
+      <option name="closed" value="true" />
+      <created>1732632193655</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732632193655</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +306,8 @@
     <MESSAGE value="Creating Finish Order TC" />
     <MESSAGE value="allure-report" />
     <MESSAGE value=" Integrating Maven with Allure" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Integrating Maven with Allure" />
+    <MESSAGE value="Regression test suit by Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regression test suit by Maven" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
