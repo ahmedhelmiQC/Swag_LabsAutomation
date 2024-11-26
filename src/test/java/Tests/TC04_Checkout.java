@@ -33,8 +33,9 @@ public class TC04_Checkout {
     }
     @BeforeClass
     public void Login() throws IOException {
-        setupDriver(getPropertyValue("environment","Browser"));
-        LogsUtilis.info("EdgeDriver is opened");
+        String browser = System.getProperty("Browser") !=null ? System.getProperty("Browser") : getPropertyValue("environment","Browser");
+        LogsUtilis.info(System.getProperty("Browser"));
+        setupDriver(browser);
         getDriver().get(getPropertyValue("environment","BASE_URL"));
         LogsUtilis.info("Page is redirect to the Home Page ");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

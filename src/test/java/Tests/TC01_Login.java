@@ -20,7 +20,7 @@ import static Utilities.Data_Utilis.getPropertyValue;
 
 @Listeners({IInvokedMethodListenerClass.class, ITestResultListenerClass.class})
 public class TC01_Login {
-
+    
     private final String UserName= Data_Utilis.getJsonData("validLogin","username");
     private final String Password= Data_Utilis.getJsonData("validLogin","password");
 

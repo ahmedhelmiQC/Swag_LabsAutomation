@@ -23,10 +23,10 @@
         <shutterBugVersion>1.6</shutterBugVersion>
         <allure.version>2.29.0</allure.version>
         <commons-io>2.16.1</commons-io>
-        <surefire.version>3.1.2</surefire.version>
-        <allureMaven>2.12.0</allureMaven>
+        <surefire.version>3.5.1</surefire.version>
+        <allureMaven>2.10.0</allureMaven>
         <allureAPI.version>2.30.0</allureAPI.version>
-        <aspectj.version>1.9.20.1</aspectj.version>
+        <aspectj.version>1.9.22.1</aspectj.version>
         <suite.Login>Test Runner/LoginSuite.xml</suite.Login>
         <suite.Landing>Test Runner/LandingSuite.xml</suite.Landing>
         <suite.CartTest> Runner/CartSuite.xml</suite.CartTest>

@@ -32,8 +32,9 @@ public class TC05_Overview {
 
     @BeforeClass
     public void Login() throws IOException {
-        setupDriver(getPropertyValue("environment","Browser"));
-        LogsUtilis.info("EdgeDriver is opened");
+        String browser = System.getProperty("Browser") !=null ? System.getProperty("Browser") : getPropertyValue("environment","Browser");
+        LogsUtilis.info(System.getProperty("Browser"));
+        setupDriver(browser);
         getDriver().get(getPropertyValue("environment","BASE_URL"));
         LogsUtilis.info("Page is redirect to the BASE Page ");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -44,9 +45,9 @@ public class TC05_Overview {
     }
     @BeforeMethod
     public void setup() throws IOException {
-        String browser = System.getProperty("browser") !=null ? System.getProperty("browser") : getPropertyValue("environment","Browser");
+        String browser = System.getProperty("Browser") !=null ? System.getProperty("Browser") : getPropertyValue("environment","Browser");
         LogsUtilis.info(System.getProperty("Browser"));
-        setupDriver(getPropertyValue("environment","Browser"));
+        setupDriver(browser);
         LogsUtilis.info("EdgeDriver is opened");
         getDriver().get(getPropertyValue("environment","BASE_URL"));
        // LogsUtilis.info("Page is redirect to the Login Page ");
